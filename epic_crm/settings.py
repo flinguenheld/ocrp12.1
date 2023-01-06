@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'django_filters',
+    'epic_crm.user',
+    'epic_crm.customer',
 ]
 
 MIDDLEWARE = [
