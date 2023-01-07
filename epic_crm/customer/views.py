@@ -5,7 +5,7 @@ import django_filters
 from .models import Customer
 from . import serializers
 
-from rest_framework.permissions import DjangoModelPermissions
+from rest_framework.permissions import DjangoModelPermissions, IsAdminUser
 from .permissions import IsAssignedOrStaff
 
 
@@ -26,7 +26,18 @@ class CustomerViewSet(mixins.ListModelMixin,
                       viewsets.GenericViewSet):
 
     filterset_class = CustomerFilter
-    permission_classes = [DjangoModelPermissions, IsAssignedOrStaff]
+
+    def get_permissions(self):
+        permission_classes = [DjangoModelPermissions]
+
+        match self.action:
+            case 'update':
+                permission_classes.append(IsAssignedOrStaff)
+
+            case 'destroy':
+                permission_classes.append(IsAdminUser)
+
+        return [permission() for permission in permission_classes]
 
     def get_queryset(self):
         return Customer.objects.all().order_by('name')
@@ -44,4 +55,3 @@ class CustomerViewSet(mixins.ListModelMixin,
 
     def perform_create(self, serializer):
         serializer.save(affected_user=self.request.user)
-        serializer.save()

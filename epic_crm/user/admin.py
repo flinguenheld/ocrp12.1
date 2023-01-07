@@ -5,6 +5,8 @@ from django.contrib import admin
 from django.contrib.auth.models import User, Group, Permission
 from django.contrib.contenttypes.models import ContentType
 
+from .groups import init_groups
+
 # content_type = ContentType.objects.get(app_label='myapp', model='BlogPost')
 # permission = Permission.objects.create(codename='can_publish',
                                        # name='Can Publish Posts',
@@ -12,12 +14,5 @@ from django.contrib.contenttypes.models import ContentType
 # user = User.objects.get(username='duke_nukem')
 
 
-if not Group.objects.filter(name='sales'):
-
-    group_sales = Group.objects.create(name='sales')
-    group_sales.permissions.add(Permission.objects.get(name='Can add customer'))
-
-
-if not Group.objects.filter(name='tech'):
-    group_sales = Group.objects.create(name='tech')
-    # group.permissions.add(permission)
+# Group initialisation
+init_groups()
