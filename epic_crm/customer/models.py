@@ -11,7 +11,7 @@ class Customer(models.Model):
     mobile = models.CharField(max_length=100, blank=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
 
-    affected_user = models.ForeignKey(to=User,
+    assigned_user = models.ForeignKey(to=User,
                                       on_delete=models.SET_NULL,
                                       null=True,
                                       blank=True,

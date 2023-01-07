@@ -1,0 +1,1095 @@
+2023-01-06 17:33:47,962 - INFO - Watching for file changes with StatReloader
+2023-01-06 17:42:24,065 - INFO - Watching for file changes with StatReloader
+2023-01-06 17:42:32,026 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-06 17:42:32,039 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-06 17:42:34,255 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-06 17:42:34,267 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 17:42:36,657 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 17:42:36,677 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 17:42:39,997 - INFO - "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15983
+2023-01-06 17:42:40,017 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 17:42:51,969 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 18:11:25,118 - INFO - Watching for file changes with StatReloader
+2023-01-06 18:11:44,092 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 18:11:46,046 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 18:11:46,983 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 18:11:48,383 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:11:48,404 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:11:49,920 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:11:49,942 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:39:40,591 - INFO - Watching for file changes with StatReloader
+2023-01-06 18:39:44,126 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:39:44,147 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:39:50,518 - INFO - Watching for file changes with StatReloader
+2023-01-06 18:39:53,147 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:39:53,164 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:39:54,933 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:39:54,955 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:39:55,839 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:39:55,860 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:40:21,547 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:40:21,565 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:40:22,859 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:40:22,881 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:40:24,795 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:40:24,816 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:40:26,047 - INFO - "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15983
+2023-01-06 18:40:26,068 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:41:30,072 - INFO - Watching for file changes with StatReloader
+2023-01-06 18:41:33,868 - INFO - "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15983
+2023-01-06 18:41:33,886 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:41:35,527 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:41:35,544 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:41:37,128 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:41:37,146 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:42:14,952 - INFO - Watching for file changes with StatReloader
+2023-01-06 18:42:17,607 - INFO - "GET /admin/ HTTP/1.1" 200 3580
+2023-01-06 18:42:19,751 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:42:19,772 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:42:21,041 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8440
+2023-01-06 18:42:21,061 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 18:42:22,358 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5200
+2023-01-06 18:42:22,377 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 19:50:29,891 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.
+2023-01-06 19:50:30,113 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:50:44,259 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.
+2023-01-06 19:50:44,456 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:50:46,581 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.
+2023-01-06 19:50:46,777 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:51:03,198 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:52:08,435 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/apps.py changed, reloading.
+2023-01-06 19:52:08,665 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:53:10,272 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 19:53:10,524 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:54:44,829 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:59:30,644 - INFO - Watching for file changes with StatReloader
+2023-01-06 19:59:44,783 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:00:28,010 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:00:58,742 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:01:22,471 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:01:24,381 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6555
+2023-01-06 20:01:24,407 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:01:25,549 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6555
+2023-01-06 20:01:25,564 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:01:26,889 - INFO - "GET /admin/auth/group/3/change/ HTTP/1.1" 200 8390
+2023-01-06 20:01:26,909 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:01:31,452 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8805
+2023-01-06 20:01:31,475 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:10:24,035 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:10:24,289 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:11:06,103 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:11:22,054 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:11:55,009 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:12:10,855 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:12:15,141 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6757
+2023-01-06 20:12:15,166 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:12:20,230 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:12:40,508 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:12:40,759 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:12:45,915 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:12:46,168 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:13:23,579 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:13:23,836 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:13:52,186 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:13:52,435 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:13:53,560 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:13:53,811 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:01,992 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:02,244 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:06,392 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:06,652 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:07,777 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:08,030 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:12,178 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:12,429 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:20,608 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:20,859 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:14:26,017 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:14:26,270 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:15:02,323 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 8867
+2023-01-06 20:15:02,347 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:15:04,184 - INFO - "GET /admin/auth/user/1/change/ HTTP/1.1" 200 16103
+2023-01-06 20:15:04,206 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:15:28,902 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:15:30,759 - INFO - "GET /admin/auth/user/1/change/ HTTP/1.1" 200 16103
+2023-01-06 20:15:30,776 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 20:15:41,150 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:15:41,408 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:09,752 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:09,996 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:12,128 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:12,375 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:18,537 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:18,786 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:20,918 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:21,164 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:23,295 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:23,554 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:16:26,700 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 20:16:26,954 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:18:40,373 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.
+2023-01-06 20:18:40,581 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:18:48,718 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.
+2023-01-06 20:18:48,958 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:21:14,264 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:21:14,523 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:21:15,649 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:21:15,906 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:21:30,137 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:21:30,399 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:22:14,881 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:22:15,147 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:22:51,557 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:22:51,822 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:22:54,969 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:22:55,234 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:22:58,378 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:22:58,638 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:23:05,813 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:23:06,076 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:23:16,275 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:23:16,536 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:23:21,694 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/models.py changed, reloading.
+2023-01-06 20:23:21,954 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:46:37,687 - INFO - Watching for file changes with StatReloader
+2023-01-06 20:57:57,675 - WARNING - Not Found: /login/
+2023-01-06 20:57:57,676 - WARNING - "POST /login/ HTTP/1.1" 404 2207
+2023-01-06 20:58:13,872 - WARNING - Not Found: /login/
+2023-01-06 20:58:13,872 - WARNING - "POST /login/ HTTP/1.1" 404 2207
+2023-01-06 21:00:01,390 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-06 21:00:01,651 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:00:04,741 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-06 21:00:04,996 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:00:25,280 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-06 21:00:25,540 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:01:34,618 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:02:15,403 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:02:19,560 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-06 21:02:19,821 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:04:48,371 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:04:53,060 - INFO - "POST /login/ HTTP/1.1" 200 483
+2023-01-06 21:05:49,406 - ERROR - Internal Server Error: /customers/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+           ^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:05:49,408 - ERROR - "GET /customers/ HTTP/1.1" 500 160787
+2023-01-06 21:07:11,922 - ERROR - Internal Server Error: /customers/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+           ^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:07:11,923 - ERROR - "GET /customers/ HTTP/1.1" 500 160787
+2023-01-06 21:07:24,097 - ERROR - Internal Server Error: /customers/1/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 646, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:07:24,098 - ERROR - "GET /customers/1/ HTTP/1.1" 500 165407
+2023-01-06 21:07:33,266 - WARNING - Not Found: /customer/
+2023-01-06 21:07:33,266 - WARNING - "POST /customer/ HTTP/1.1" 404 3053
+2023-01-06 21:07:37,979 - ERROR - Internal Server Error: /customers/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: SELECT 1 AS "a" FROM "customer_customer" WHERE "customer_cus...
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 426, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 483, in to_internal_value
+    validated_value = field.run_validation(primitive_value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/fields.py", line 751, in run_validation
+    return super().run_validation(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/fields.py", line 548, in run_validation
+    self.run_validators(value)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/fields.py", line 560, in run_validators
+    validator(value, self)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/validators.py", line 73, in __call__
+    if qs_exists(queryset):
+       ^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/validators.py", line 21, in qs_exists
+    return queryset.exists()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1226, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/query.py", line 592, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1366, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: SELECT 1 AS "a" FROM "customer_customer" WHERE "customer_cus...
+                             ^
+
+2023-01-06 21:07:37,980 - ERROR - "POST /customers/ HTTP/1.1" 500 183605
+2023-01-06 21:07:46,288 - WARNING - Not Found: /custemers/1/
+2023-01-06 21:07:46,288 - WARNING - "PUT /custemers/1/ HTTP/1.1" 404 3061
+2023-01-06 21:07:52,831 - ERROR - Internal Server Error: /customers/1/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 65, in update
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 646, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:07:52,832 - ERROR - "PUT /customers/1/ HTTP/1.1" 500 165895
+2023-01-06 21:08:00,291 - ERROR - Internal Server Error: /customers/1/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 65, in update
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 646, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:08:00,292 - ERROR - "PUT /customers/1/ HTTP/1.1" 500 165895
+2023-01-06 21:08:08,314 - WARNING - Not Found: /customer/1/
+2023-01-06 21:08:08,315 - WARNING - "DELETE /customer/1/ HTTP/1.1" 404 3061
+2023-01-06 21:08:10,059 - ERROR - Internal Server Error: /customers/1/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 90, in destroy
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 96, in get_object
+    obj = get_object_or_404(queryset, **filter_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 19, in get_object_or_404
+    return _get_object_or_404(queryset, *filter_args, **filter_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 646, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 376, in __len__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:08:10,060 - ERROR - "DELETE /customers/1/ HTTP/1.1" 500 165340
+2023-01-06 21:08:41,909 - ERROR - Internal Server Error: /customers/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+           ^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 394, in __iter__
+    self._fetch_all()
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 1867, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/query.py", line 87, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/models/sql/compiler.py", line 1398, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "customer_customer" does not exist
+LINE 1: ...ted", "customer_customer"."affected_user_id" FROM "customer_...
+                                                             ^
+
+2023-01-06 21:08:41,910 - ERROR - "GET /customers/ HTTP/1.1" 500 160787
+2023-01-06 21:11:02,329 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:11:05,237 - INFO - "GET /customers/ HTTP/1.1" 200 2
+2023-01-06 21:11:10,068 - WARNING - Not Found: /customers/1/
+2023-01-06 21:11:10,068 - WARNING - "GET /customers/1/ HTTP/1.1" 404 23
+2023-01-06 21:11:13,679 - INFO - "POST /customers/ HTTP/1.1" 201 175
+2023-01-06 21:11:21,182 - INFO - "PUT /customers/1/ HTTP/1.1" 200 184
+2023-01-06 21:11:29,268 - INFO - "DELETE /customers/1/ HTTP/1.1" 204 0
+2023-01-06 21:11:32,207 - WARNING - Not Found: /customers/1/
+2023-01-06 21:11:32,207 - WARNING - "PUT /customers/1/ HTTP/1.1" 404 23
+2023-01-06 21:26:30,388 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:26:36,900 - WARNING - Not Found: /customers/1/
+2023-01-06 21:26:36,901 - WARNING - "GET /customers/1/ HTTP/1.1" 404 23
+2023-01-06 21:26:39,076 - INFO - "GET /customers/ HTTP/1.1" 200 2
+2023-01-06 21:26:41,413 - INFO - "POST /customers/ HTTP/1.1" 201 175
+2023-01-06 21:27:44,166 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/views.py changed, reloading.
+2023-01-06 21:27:44,429 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:27:46,576 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/views.py changed, reloading.
+2023-01-06 21:27:46,836 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:27:49,939 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/views.py changed, reloading.
+2023-01-06 21:27:50,200 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:27:55,318 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/views.py changed, reloading.
+2023-01-06 21:27:55,579 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:28:01,760 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/customer/views.py changed, reloading.
+2023-01-06 21:28:02,029 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:29:18,489 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6958
+2023-01-06 21:29:18,513 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:29:26,804 - INFO - "GET /admin/auth/group/5/change/ HTTP/1.1" 200 8645
+2023-01-06 21:29:26,829 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:29:49,243 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6958
+2023-01-06 21:29:49,264 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:29:51,540 - INFO - "GET /admin/auth/group/5/change/ HTTP/1.1" 200 8645
+2023-01-06 21:29:51,563 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:33:28,937 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:33:29,207 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:33:30,337 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:33:30,578 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:33:31,708 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:33:31,958 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:33:42,107 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:33:42,351 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:34:13,546 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:34:13,792 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:34:14,921 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:34:15,164 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:34:22,308 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:34:22,561 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:34:30,759 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:34:31,020 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:04,420 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:04,691 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:08,854 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:09,116 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:11,260 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:11,522 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:14,657 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:14,908 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:25,123 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:25,382 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:29,546 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:29,814 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:31,962 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:32,227 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:38,406 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:38,666 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:45,858 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:46,123 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:35:47,261 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:35:47,518 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:01,256 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:01,524 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:06,694 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:06,961 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:08,102 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:08,361 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:09,500 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:09,758 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:10,889 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:11,146 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:31,451 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:31,714 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:32,852 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:33,116 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:36,251 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:36,499 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:41,666 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:37:41,928 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:37:48,456 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6958
+2023-01-06 21:37:48,483 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:37:49,915 - INFO - "GET /admin/auth/group/5/change/ HTTP/1.1" 200 8645
+2023-01-06 21:37:49,938 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:37:52,958 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6958
+2023-01-06 21:37:52,982 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:37:56,328 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5335
+2023-01-06 21:37:57,329 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:37:57,339 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:37:57,397 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:38:04,160 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:38:07,219 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6542
+2023-01-06 21:38:07,236 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:38:10,041 - INFO - "GET /admin/auth/group/8/change/ HTTP/1.1" 200 8645
+2023-01-06 21:38:10,065 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:40:04,336 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:40:04,608 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:40:13,815 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:40:14,074 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:40:24,291 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:40:24,554 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:40:35,777 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:40:36,042 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:40:45,548 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6542
+2023-01-06 21:40:45,571 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:40:48,950 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5063
+2023-01-06 21:40:49,772 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:40:49,781 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:40:49,839 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:40:53,404 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:40:56,122 - INFO - "GET /admin/ HTTP/1.1" 200 5063
+2023-01-06 21:40:56,137 - INFO - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2023-01-06 21:40:57,095 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:40:57,116 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:40:58,423 - INFO - "GET /admin/auth/group/10/change/ HTTP/1.1" 200 8647
+2023-01-06 21:40:58,444 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:41:14,747 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:41:15,024 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:41:16,165 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:41:16,427 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:41:21,590 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:41:21,611 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:41:25,393 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5067
+2023-01-06 21:41:26,689 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:41:26,700 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:41:26,759 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:41:29,840 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:41:31,518 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:41:31,535 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:41:32,659 - INFO - "GET /admin/auth/group/12/change/ HTTP/1.1" 200 8647
+2023-01-06 21:41:32,682 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:42:40,603 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:42:40,870 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:42:49,555 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:42:49,574 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:42:52,826 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5067
+2023-01-06 21:42:53,895 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:42:53,907 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:42:53,965 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:43:01,668 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:03,602 - INFO - "GET /admin/ HTTP/1.1" 200 6021
+2023-01-06 21:43:07,168 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:43:07,187 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:43:12,605 - INFO - "GET /admin/auth/group/14/change/ HTTP/1.1" 200 8647
+2023-01-06 21:43:12,624 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:43:19,981 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:20,249 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:23,403 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:23,655 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:24,785 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:25,045 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:27,193 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:27,459 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:40,695 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:40,964 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:42,101 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:42,366 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:47,537 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:43:47,806 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:43:52,584 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:43:52,604 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:43:55,953 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5067
+2023-01-06 21:43:56,735 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:43:56,745 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:43:56,802 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:44:01,965 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:44:03,560 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:44:03,577 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:44:04,727 - INFO - "GET /admin/auth/group/16/change/ HTTP/1.1" 200 8647
+2023-01-06 21:44:04,747 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:45:54,074 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:45:54,359 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:45:57,515 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:45:57,786 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:45:59,932 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:00,201 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:01,340 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:01,605 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:02,741 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:03,006 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:07,074 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:46:07,092 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:46:09,484 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5067
+2023-01-06 21:46:10,305 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:46:10,317 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:46:10,374 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:46:14,939 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:17,836 - INFO - "GET /admin/ HTTP/1.1" 200 6008
+2023-01-06 21:46:18,685 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:46:18,701 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:46:20,020 - INFO - "GET /admin/auth/group/18/change/ HTTP/1.1" 200 8647
+2023-01-06 21:46:20,041 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:46:30,233 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:30,508 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:37,696 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:37,971 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:39,110 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:39,375 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:41,520 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:41,787 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:50,991 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:51,260 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:54,414 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:46:54,685 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:46:59,980 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:46:59,998 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:47:03,372 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5067
+2023-01-06 21:47:04,115 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:47:04,126 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:47:04,182 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:47:07,729 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:47:08,949 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:47:08,966 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:47:09,975 - INFO - "GET /admin/auth/group/20/change/ HTTP/1.1" 200 8656
+2023-01-06 21:47:09,995 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:47:43,196 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:47:43,465 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:47:45,613 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:47:45,897 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:47:47,040 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:47:47,313 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:47:50,470 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:47:50,739 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:47:51,877 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:47:52,155 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:20,521 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:20,794 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:21,933 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:22,200 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:25,467 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:48:25,488 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:48:29,511 - INFO - "POST /admin/auth/group/ HTTP/1.1" 200 5205
+2023-01-06 21:48:30,303 - INFO - "POST /admin/auth/group/ HTTP/1.1" 302 0
+2023-01-06 21:48:30,314 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 5336
+2023-01-06 21:48:30,371 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:48:34,575 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:37,046 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 6546
+2023-01-06 21:48:37,063 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:48:38,439 - INFO - "GET /admin/auth/group/22/change/ HTTP/1.1" 200 8656
+2023-01-06 21:48:38,461 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-06 21:48:42,809 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:43,080 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:47,242 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:47,507 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:48,644 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:48,912 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:50,058 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:50,324 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:51,463 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:51,736 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:48:52,874 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:48:53,142 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:02,348 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:49:02,629 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:04,776 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:49:05,041 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:08,197 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:49:08,455 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:12,618 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:49:12,889 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:14,028 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-06 21:49:14,287 - INFO - Watching for file changes with StatReloader
+2023-01-06 21:49:19,232 - INFO - Watching for file changes with StatReloader
+2023-01-06 22:24:24,968 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/settings.py changed, reloading.

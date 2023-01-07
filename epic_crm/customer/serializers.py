@@ -13,14 +13,22 @@ class CustomerSerializerList(ModelSerializer):
 
 class CustomerSerializerDetails(ModelSerializer):
 
-    affected_user = UserSerializerList()
+    assigned_user = UserSerializerList()
 
     class Meta:
         model = Customer
-        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile', 'date_created', 'affected_user']
+        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile', 'date_created', 'assigned_user']
+
+
+class CustomerSerializerCreateByStaff(ModelSerializer):
+
+    class Meta:
+        model = Customer
+        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile', 'assigned_user']
 
 
 class CustomerSerializerCreate(ModelSerializer):
+
     class Meta:
         model = Customer
-        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile', 'date_created']
+        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile']

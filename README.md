@@ -50,7 +50,7 @@ Here an example to create or delete a database :
 
     sudo -u postgres psql
     create database epic_events;
-    drop database epic_events
+    drop database epic_events;
 
 Django administration is activated, you can create a superuser and open it with the link :  
 http://localhost:8000/admin/

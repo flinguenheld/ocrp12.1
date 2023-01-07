@@ -2,9 +2,9 @@ import pytest
 import logging
 
 from rest_framework.test import APIClient
-from django.contrib.auth.models import User
-# from epic_crm.users.models import UserRole
+from django.contrib.auth.models import User, Group
 
+from epic_crm.user.groups import init_groups
 
 # Logging --
 logger = logging.getLogger('django')
@@ -24,41 +24,49 @@ def client():
 
 
 @pytest.fixture
-def api_client_manager():
-    client = APIClient()
-    return add_user_then_connect(client,
-                                 username='admin',
-                                 email='manager@pytest.com',
-                                 password='test01234',
-                                 role='Manager')
+def client_staff_jean():
+
+    user = User.objects.create_user(username='Jean', password='test01234')
+    user.is_staff = True
+    user.save()
+
+    return connect('Jean')
 
 
 @pytest.fixture
-def api_client_salesperson():
-    client = APIClient()
-    return add_user_then_connect(client,
-                                 username='salesper',
-                                 email='salesperson@pytest.com',
-                                 password='test01234',
-                                 role='Salesperson')
+def client_user_sophie():
+
+    User.objects.create_user(username='Sophie', password='test01234')
+    return connect('Sophie')
 
 
 @pytest.fixture
-def api_client_technical_support():
+def client_sales_mireille():
+
+    user = User.objects.create_user(username='Mireille', password='test01234')
+
+    init_groups()
+    user.groups.add(Group.objects.get(name='sales'))
+
+    return connect('Mireille')
+
+
+@pytest.fixture
+def client_tech_patrick():
+
+    user = User.objects.create_user(username='Patrick', password='test01234')
+
+    init_groups()
+    user.groups.add(Group.objects.get(name='tech'))
+
+    return connect('Patrick')
+
+
+# --
+def connect(username):
+
     client = APIClient()
-    return add_user_then_connect(client,
-                                 username='techni',
-                                 email='technical_support@pytest.com',
-                                 password='test01234',
-                                 role='Technical support')
-
-
-def add_user_then_connect(client, username, email, password, role):
-
-    user = User.objects.create_user(username=username, email=email, password=password)
-    user.role_of.role = role
-
-    response = client.post("/login/", data={"username": username, "password": password})
+    response = client.post("/login/", data={"username": username, "password": 'test01234'})
     data = response.json()
 
     client.credentials(HTTP_AUTHORIZATION=f"Bearer {data['access']}")

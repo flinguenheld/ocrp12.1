@@ -5,8 +5,8 @@ import django_filters
 from .models import Customer
 from . import serializers
 
-from rest_framework.permissions import DjangoModelPermissions, IsAdminUser
-from .permissions import IsAssignedOrStaff
+from rest_framework.permissions import DjangoModelPermissions, IsAdminUser, IsAuthenticated
+from .permissions import IsAssignedOrStaff, CanAddCustomerOrStaff
 
 
 class CustomerFilter(django_filters.FilterSet):
@@ -28,11 +28,14 @@ class CustomerViewSet(mixins.ListModelMixin,
     filterset_class = CustomerFilter
 
     def get_permissions(self):
-        permission_classes = [DjangoModelPermissions]
+        permission_classes = [IsAuthenticated]
 
         match self.action:
             case 'update':
                 permission_classes.append(IsAssignedOrStaff)
+
+            case 'create':
+                permission_classes.append(CanAddCustomerOrStaff)
 
             case 'destroy':
                 permission_classes.append(IsAdminUser)
@@ -51,7 +54,10 @@ class CustomerViewSet(mixins.ListModelMixin,
                 return serializers.CustomerSerializerDetails
 
             case 'create' | 'update':
+                if self.request.user.is_staff:
+                    return serializers.CustomerSerializerCreateByStaff
+
                 return serializers.CustomerSerializerCreate
 
     def perform_create(self, serializer):
-        serializer.save(affected_user=self.request.user)
+        serializer.save(assigned_user=self.request.user)
