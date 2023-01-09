@@ -128,6 +128,7 @@ class TestCustomers:
         assert data['name'] == 'Updated name'
         assert data['phone'] == '22222222222'
         assert data['email'] == ''
+        assert data['assigned_user'] == mireille.pk
 
     def test_user_cannot_delete_a_customer(self, client_user_sophie):
 
