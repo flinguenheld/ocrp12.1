@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django_filters',
     'epic_crm.user',
     'epic_crm.customer',
+    'epic_crm.contract',
 ]
 
 MIDDLEWARE = [

@@ -10,6 +10,7 @@ class Customer(models.Model):
     phone = models.CharField(max_length=100, blank=True)
     mobile = models.CharField(max_length=100, blank=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
+    date_updated = models.DateField(auto_now=True)
 
     assigned_user = models.ForeignKey(to=User,
                                       on_delete=models.SET_NULL,
