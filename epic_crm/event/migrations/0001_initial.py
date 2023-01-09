@@ -11,21 +11,21 @@ class Migration(migrations.Migration):
 
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+        ('contract', '0001_initial'),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Customer',
+            name='Event',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=150, unique=True)),
-                ('address', models.CharField(blank=True, max_length=300)),
-                ('email', models.EmailField(blank=True, max_length=254)),
-                ('phone', models.CharField(blank=True, max_length=100)),
-                ('mobile', models.CharField(blank=True, max_length=100)),
+                ('informations', models.CharField(blank=True, max_length=500)),
+                ('date', models.DateTimeField(blank=True)),
                 ('date_created', models.DateTimeField(auto_now_add=True)),
                 ('date_updated', models.DateField(auto_now=True)),
-                ('assigned_user', models.ForeignKey(blank=True, default=None, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='customer_of', to=settings.AUTH_USER_MODEL)),
+                ('assigned_user', models.ForeignKey(blank=True, default=None, null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL)),
+                ('contract', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to='contract.contract')),
             ],
         ),
     ]

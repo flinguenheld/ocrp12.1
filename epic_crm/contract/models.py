@@ -5,7 +5,7 @@ from epic_crm.customer.models import Customer
 
 class Contract(models.Model):
 
-    date_signed = models.DateTimeField(blank=True, null=True)
+    date_signed = models.DateTimeField(blank=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
     date_updated = models.DateField(auto_now=True)
 

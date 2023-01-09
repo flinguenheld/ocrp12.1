@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'epic_crm.user',
     'epic_crm.customer',
     'epic_crm.contract',
+    'epic_crm.event',
 ]
 
 MIDDLEWARE = [
