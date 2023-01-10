@@ -1,18 +1,20 @@
 from django.contrib import admin
 
-# Register your models here.
-
-from django.contrib.auth.models import User, Group, Permission
-from django.contrib.contenttypes.models import ContentType
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+from django.contrib.auth.models import User, Group
 
 from .groups import init_groups
 
-# content_type = ContentType.objects.get(app_label='myapp', model='BlogPost')
-# permission = Permission.objects.create(codename='can_publish',
-                                       # name='Can Publish Posts',
-                                       # content_type=content_type)
-# user = User.objects.get(username='duke_nukem')
-
-
 # Group initialisation
 init_groups()
+
+
+class UserManagerArea(admin.AdminSite):
+    site_header = 'User Manager area'
+    site_title = 'prout'
+    site_index_title = 'aaaaaaprout'
+
+
+manager_site = UserManagerArea(name='UserManagement')
+manager_site.register(Group)
+manager_site.register(User)

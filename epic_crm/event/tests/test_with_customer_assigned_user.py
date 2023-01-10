@@ -14,7 +14,7 @@ class TestEventsWithCustomerAssignedUser:
 
         mireille = User.objects.get(username='Mireille')
         customer = Customer.objects.create(name='name 0', assigned_user=mireille)
-        contract = Contract.objects.create(amount=1500, customer=customer)
+        contract = Contract.objects.create(amount=1500, customer=customer, date_signed='2020-10-20T00:00:00Z')
 
         # --
         body = {'name': 'new event', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
@@ -27,6 +27,22 @@ class TestEventsWithCustomerAssignedUser:
         assert data['date'] == '2023-10-20T00:00:00Z'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] is None
+
+    def test_customer_assigned_user_cannot_create_an_event_for_a_non_signed_contract(self, client_sales_mireille):
+
+        mireille = User.objects.get(username='Mireille')
+        customer = Customer.objects.create(name='name 0', assigned_user=mireille)
+        contract = Contract.objects.create(amount=1500, customer=customer)
+
+        # --
+        body = {'name': 'new event', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
+
+        response = client_sales_mireille.post('/events/', data=body)
+        data = response.json()
+
+        print(data)
+        assert response.status_code == 400
+        assert 'You cannot create an event if the contract has not been signed' in data['contract']
 
     def test_customer_assigned_user_cannot_update_his_customer_event(self, client_sales_mireille):
 

@@ -18,3 +18,277 @@
 2023-01-10 17:52:20,534 - WARNING - Forbidden: /events/25/
 2023-01-10 17:52:20,620 - WARNING - Unauthorized: /login/
 2023-01-10 17:52:20,812 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 19:22:38,741 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 19:22:38,970 - WARNING - Unauthorized: /contracts/
+2023-01-10 19:22:39,608 - WARNING - Forbidden: /contracts/
+2023-01-10 19:22:40,310 - WARNING - Forbidden: /contracts/6/
+2023-01-10 19:22:40,925 - WARNING - Forbidden: /contracts/9/
+2023-01-10 19:22:41,102 - WARNING - Forbidden: /contracts/10/
+2023-01-10 19:22:42,170 - WARNING - Unauthorized: /customers/
+2023-01-10 19:22:42,713 - WARNING - Forbidden: /customers/
+2023-01-10 19:22:43,242 - WARNING - Forbidden: /customers/32/
+2023-01-10 19:22:43,859 - WARNING - Forbidden: /customers/35/
+2023-01-10 19:22:44,034 - WARNING - Forbidden: /customers/36/
+2023-01-10 19:22:45,793 - WARNING - Forbidden: /events/14/
+2023-01-10 19:22:46,150 - WARNING - Forbidden: /events/16/
+2023-01-10 19:22:46,326 - WARNING - Forbidden: /events/17/
+2023-01-10 19:22:47,028 - WARNING - Unauthorized: /events/
+2023-01-10 19:22:47,556 - WARNING - Forbidden: /events/
+2023-01-10 19:22:47,732 - WARNING - Forbidden: /events/24/
+2023-01-10 19:22:47,907 - WARNING - Forbidden: /events/25/
+2023-01-10 19:22:47,994 - WARNING - Unauthorized: /login/
+2023-01-10 19:22:48,191 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:25:56,143 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:26:27,444 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-10 21:26:27,698 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:26:30,847 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:26:36,959 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/urls.py changed, reloading.
+2023-01-10 21:26:37,211 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:26:50,828 - WARNING - Not Found: /
+2023-01-10 21:26:50,829 - WARNING - "GET / HTTP/1.1" 404 4065
+2023-01-10 21:26:55,102 - INFO - "GET /manager/ HTTP/1.1" 302 0
+2023-01-10 21:26:55,113 - INFO - "GET /manager/login/?next=/manager/ HTTP/1.1" 200 2222
+2023-01-10 21:26:55,178 - INFO - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+2023-01-10 21:26:55,178 - INFO - "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+2023-01-10 21:26:55,178 - INFO - "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+2023-01-10 21:26:55,179 - INFO - "GET /static/admin/css/login.css HTTP/1.1" 200 958
+2023-01-10 21:26:55,179 - INFO - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+2023-01-10 21:26:55,179 - INFO - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+2023-01-10 21:26:55,221 - INFO - "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2023-01-10 21:26:55,225 - INFO - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+2023-01-10 21:26:55,226 - INFO - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+2023-01-10 21:27:42,586 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:27:45,792 - INFO - "POST /manager/login/?next=/manager/ HTTP/1.1" 302 0
+2023-01-10 21:27:45,812 - INFO - "GET /manager/ HTTP/1.1" 200 3181
+2023-01-10 21:27:45,869 - INFO - "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+2023-01-10 21:27:45,912 - INFO - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2023-01-10 21:27:45,913 - INFO - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2023-01-10 21:27:45,920 - INFO - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+2023-01-10 21:28:12,593 - INFO - "GET /manager/auth/user/ HTTP/1.1" 200 5745
+2023-01-10 21:28:12,654 - INFO - "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+2023-01-10 21:28:12,655 - INFO - "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+2023-01-10 21:28:12,656 - INFO - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2023-01-10 21:28:12,656 - INFO - "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+2023-01-10 21:28:12,656 - INFO - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+2023-01-10 21:28:12,657 - INFO - "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+2023-01-10 21:28:12,658 - INFO - "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+2023-01-10 21:28:12,659 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:28:12,659 - INFO - "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2023-01-10 21:28:12,660 - INFO - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+2023-01-10 21:28:12,661 - INFO - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+2023-01-10 21:28:12,711 - INFO - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2023-01-10 21:28:15,327 - INFO - "GET /manager/auth/user/ HTTP/1.1" 200 5745
+2023-01-10 21:28:15,343 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:32:30,047 - INFO - "GET /manager/ HTTP/1.1" 200 3181
+2023-01-10 21:32:47,404 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:32:47,668 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:32:56,879 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:32:57,142 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:32:59,593 - INFO - "GET /manager/ HTTP/1.1" 200 3169
+2023-01-10 21:33:19,502 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:33:19,761 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:33:20,904 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:33:21,165 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:33:30,374 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:33:30,641 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:33:33,809 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:33:34,070 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:33:36,870 - INFO - "GET /manager/ HTTP/1.1" 200 3169
+2023-01-10 21:33:39,413 - INFO - "GET /manager/auth/user/ HTTP/1.1" 200 5733
+2023-01-10 21:33:39,434 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:33:41,039 - INFO - "GET /manager/ HTTP/1.1" 200 3169
+2023-01-10 21:33:43,640 - INFO - "GET /manager/ HTTP/1.1" 200 3169
+2023-01-10 21:33:44,342 - INFO - "GET /manager/ HTTP/1.1" 200 3169
+2023-01-10 21:34:07,534 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:34:07,805 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:35:19,070 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:35:27,276 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:35:27,544 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:35:28,691 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/admin.py changed, reloading.
+2023-01-10 21:35:28,956 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:35:31,542 - INFO - "GET /manager/ HTTP/1.1" 200 3584
+2023-01-10 21:35:32,492 - INFO - "GET /manager/auth/group/ HTTP/1.1" 200 6029
+2023-01-10 21:35:32,513 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:35:36,062 - INFO - "GET /manager/auth/user/ HTTP/1.1" 200 6019
+2023-01-10 21:35:36,083 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:35:36,920 - INFO - "GET /manager/auth/group/ HTTP/1.1" 200 6029
+2023-01-10 21:35:36,940 - INFO - "GET /manager/jsi18n/ HTTP/1.1" 200 3343
+2023-01-10 21:41:17,161 - INFO - "GET /manager/ HTTP/1.1" 200 3584
+2023-01-10 21:50:22,794 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:50:23,055 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:50:24,143 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:50:24,394 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:50:51,679 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:50:51,932 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:50:59,068 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:50:59,322 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:51:31,646 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:51:31,903 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:52:09,262 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:52:09,513 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:52:22,692 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:52:22,947 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:52:39,147 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:52:39,402 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:52:50,566 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:52:50,821 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:53:06,079 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:53:06,337 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:53:08,390 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:53:08,610 - WARNING - Unauthorized: /contracts/
+2023-01-10 21:53:09,233 - WARNING - Forbidden: /contracts/
+2023-01-10 21:53:09,927 - WARNING - Forbidden: /contracts/6/
+2023-01-10 21:53:10,529 - WARNING - Forbidden: /contracts/9/
+2023-01-10 21:53:10,703 - WARNING - Forbidden: /contracts/10/
+2023-01-10 21:53:11,751 - WARNING - Unauthorized: /customers/
+2023-01-10 21:53:12,264 - WARNING - Forbidden: /customers/
+2023-01-10 21:53:12,783 - WARNING - Forbidden: /customers/32/
+2023-01-10 21:53:13,386 - WARNING - Forbidden: /customers/35/
+2023-01-10 21:53:13,559 - WARNING - Forbidden: /customers/36/
+2023-01-10 21:53:15,291 - WARNING - Forbidden: /events/14/
+2023-01-10 21:53:15,641 - WARNING - Forbidden: /events/16/
+2023-01-10 21:53:15,814 - WARNING - Forbidden: /events/17/
+2023-01-10 21:53:16,070 - WARNING - Bad Request: /events/
+2023-01-10 21:53:16,361 - WARNING - Bad Request: /events/18/
+2023-01-10 21:53:16,537 - WARNING - Unauthorized: /events/
+2023-01-10 21:53:17,055 - WARNING - Forbidden: /events/
+2023-01-10 21:53:17,227 - WARNING - Forbidden: /events/23/
+2023-01-10 21:53:17,398 - WARNING - Forbidden: /events/24/
+2023-01-10 21:53:17,485 - WARNING - Unauthorized: /login/
+2023-01-10 21:53:17,677 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:53:27,650 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:53:27,909 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:53:29,060 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:53:29,282 - WARNING - Unauthorized: /contracts/
+2023-01-10 21:53:29,908 - WARNING - Forbidden: /contracts/
+2023-01-10 21:53:30,603 - WARNING - Forbidden: /contracts/6/
+2023-01-10 21:53:31,214 - WARNING - Forbidden: /contracts/9/
+2023-01-10 21:53:31,386 - WARNING - Forbidden: /contracts/10/
+2023-01-10 21:53:32,436 - WARNING - Unauthorized: /customers/
+2023-01-10 21:53:32,954 - WARNING - Forbidden: /customers/
+2023-01-10 21:53:33,473 - WARNING - Forbidden: /customers/32/
+2023-01-10 21:53:34,075 - WARNING - Forbidden: /customers/35/
+2023-01-10 21:53:34,248 - WARNING - Forbidden: /customers/36/
+2023-01-10 21:53:35,988 - WARNING - Forbidden: /events/14/
+2023-01-10 21:53:36,341 - WARNING - Forbidden: /events/16/
+2023-01-10 21:53:36,515 - WARNING - Forbidden: /events/17/
+2023-01-10 21:53:37,216 - WARNING - Unauthorized: /events/
+2023-01-10 21:53:37,736 - WARNING - Forbidden: /events/
+2023-01-10 21:53:37,909 - WARNING - Forbidden: /events/24/
+2023-01-10 21:53:38,080 - WARNING - Forbidden: /events/25/
+2023-01-10 21:53:38,178 - WARNING - Unauthorized: /login/
+2023-01-10 21:53:38,368 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:53:43,184 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:53:43,437 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:53:44,580 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:53:44,833 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:53:52,026 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:53:52,280 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:54:02,496 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:54:02,750 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:54:37,168 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 21:54:37,424 - INFO - Watching for file changes with StatReloader
+2023-01-10 21:56:34,348 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:56:34,586 - WARNING - Unauthorized: /contracts/
+2023-01-10 21:56:35,196 - WARNING - Forbidden: /contracts/
+2023-01-10 21:56:35,885 - WARNING - Forbidden: /contracts/6/
+2023-01-10 21:56:36,491 - WARNING - Forbidden: /contracts/9/
+2023-01-10 21:56:36,664 - WARNING - Forbidden: /contracts/10/
+2023-01-10 21:56:37,713 - WARNING - Unauthorized: /customers/
+2023-01-10 21:56:38,230 - WARNING - Forbidden: /customers/
+2023-01-10 21:56:38,749 - WARNING - Forbidden: /customers/32/
+2023-01-10 21:56:39,355 - WARNING - Forbidden: /customers/35/
+2023-01-10 21:56:39,529 - WARNING - Forbidden: /customers/36/
+2023-01-10 21:56:41,258 - WARNING - Forbidden: /events/14/
+2023-01-10 21:56:41,609 - WARNING - Bad Request: /events/
+2023-01-10 21:56:41,816 - WARNING - Forbidden: /events/16/
+2023-01-10 21:56:41,989 - WARNING - Forbidden: /events/17/
+2023-01-10 21:56:42,678 - WARNING - Unauthorized: /events/
+2023-01-10 21:56:43,195 - WARNING - Forbidden: /events/
+2023-01-10 21:56:43,368 - WARNING - Forbidden: /events/24/
+2023-01-10 21:56:43,539 - WARNING - Forbidden: /events/25/
+2023-01-10 21:56:43,633 - WARNING - Unauthorized: /login/
+2023-01-10 21:56:43,831 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:57:20,485 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:57:20,725 - WARNING - Unauthorized: /contracts/
+2023-01-10 21:57:21,344 - WARNING - Forbidden: /contracts/
+2023-01-10 21:57:22,048 - WARNING - Forbidden: /contracts/6/
+2023-01-10 21:57:22,668 - WARNING - Forbidden: /contracts/9/
+2023-01-10 21:57:22,846 - WARNING - Forbidden: /contracts/10/
+2023-01-10 21:57:23,965 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:57:43,049 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:57:43,651 - WARNING - Bad Request: /events/
+2023-01-10 21:57:43,859 - WARNING - Forbidden: /events/2/
+2023-01-10 21:57:44,036 - WARNING - Forbidden: /events/3/
+2023-01-10 21:57:44,052 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:59:08,334 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:59:08,926 - WARNING - Bad Request: /events/
+2023-01-10 21:59:09,134 - WARNING - Forbidden: /events/2/
+2023-01-10 21:59:09,306 - WARNING - Forbidden: /events/3/
+2023-01-10 21:59:09,325 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:59:14,482 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:59:15,079 - WARNING - Bad Request: /events/
+2023-01-10 21:59:15,288 - WARNING - Forbidden: /events/2/
+2023-01-10 21:59:15,462 - WARNING - Forbidden: /events/3/
+2023-01-10 21:59:15,479 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 21:59:33,640 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 21:59:34,234 - WARNING - Bad Request: /events/
+2023-01-10 21:59:34,442 - WARNING - Forbidden: /events/2/
+2023-01-10 21:59:34,615 - WARNING - Forbidden: /events/3/
+2023-01-10 21:59:34,632 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 22:00:44,607 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/event/serializers.py changed, reloading.
+2023-01-10 22:00:44,863 - INFO - Watching for file changes with StatReloader
+2023-01-10 22:01:07,724 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 22:01:08,322 - WARNING - Bad Request: /events/
+2023-01-10 22:01:08,497 - WARNING - Forbidden: /events/2/
+2023-01-10 22:01:08,671 - WARNING - Forbidden: /events/3/
+2023-01-10 22:01:08,690 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 22:01:45,343 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 22:01:45,568 - WARNING - Unauthorized: /contracts/
+2023-01-10 22:01:46,194 - WARNING - Forbidden: /contracts/
+2023-01-10 22:01:46,890 - WARNING - Forbidden: /contracts/6/
+2023-01-10 22:01:47,495 - WARNING - Forbidden: /contracts/9/
+2023-01-10 22:01:47,668 - WARNING - Forbidden: /contracts/10/
+2023-01-10 22:01:48,712 - WARNING - Unauthorized: /customers/
+2023-01-10 22:01:49,226 - WARNING - Forbidden: /customers/
+2023-01-10 22:01:49,743 - WARNING - Forbidden: /customers/32/
+2023-01-10 22:01:50,345 - WARNING - Forbidden: /customers/35/
+2023-01-10 22:01:50,517 - WARNING - Forbidden: /customers/36/
+2023-01-10 22:01:52,245 - WARNING - Forbidden: /events/14/
+2023-01-10 22:01:52,596 - WARNING - Bad Request: /events/
+2023-01-10 22:01:52,770 - WARNING - Forbidden: /events/16/
+2023-01-10 22:01:52,945 - WARNING - Forbidden: /events/17/
+2023-01-10 22:01:53,633 - WARNING - Unauthorized: /events/
+2023-01-10 22:01:54,148 - WARNING - Forbidden: /events/
+2023-01-10 22:01:54,320 - WARNING - Forbidden: /events/24/
+2023-01-10 22:01:54,491 - WARNING - Forbidden: /events/25/
+2023-01-10 22:01:54,577 - WARNING - Unauthorized: /login/
+2023-01-10 22:01:54,771 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 22:02:36,873 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 22:02:37,111 - WARNING - Unauthorized: /contracts/
+2023-01-10 22:02:37,721 - WARNING - Forbidden: /contracts/
+2023-01-10 22:02:38,408 - WARNING - Forbidden: /contracts/6/
+2023-01-10 22:02:39,014 - WARNING - Forbidden: /contracts/9/
+2023-01-10 22:02:39,187 - WARNING - Forbidden: /contracts/10/
+2023-01-10 22:02:40,231 - WARNING - Unauthorized: /customers/
+2023-01-10 22:02:40,747 - WARNING - Forbidden: /customers/
+2023-01-10 22:02:41,268 - WARNING - Forbidden: /customers/32/
+2023-01-10 22:02:41,882 - WARNING - Forbidden: /customers/35/
+2023-01-10 22:02:42,064 - WARNING - Forbidden: /customers/36/
+2023-01-10 22:02:43,823 - WARNING - Forbidden: /events/14/
+2023-01-10 22:02:44,187 - WARNING - Bad Request: /events/
+2023-01-10 22:02:44,369 - WARNING - Forbidden: /events/16/
+2023-01-10 22:02:44,550 - WARNING - Forbidden: /events/17/
+2023-01-10 22:02:45,256 - WARNING - Unauthorized: /events/
+2023-01-10 22:02:45,787 - WARNING - Forbidden: /events/
+2023-01-10 22:02:45,975 - WARNING - Forbidden: /events/24/
+2023-01-10 22:02:46,148 - WARNING - Forbidden: /events/25/
+2023-01-10 22:02:46,234 - WARNING - Unauthorized: /login/
+2023-01-10 22:02:46,427 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-10 22:03:45,703 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-10 22:03:45,943 - WARNING - Unauthorized: /contracts/
+2023-01-10 22:03:46,552 - WARNING - Forbidden: /contracts/
+2023-01-10 22:03:47,240 - WARNING - Forbidden: /contracts/6/
+2023-01-10 22:03:47,845 - WARNING - Forbidden: /contracts/9/
+2023-01-10 22:03:48,018 - WARNING - Forbidden: /contracts/10/
+2023-01-10 22:03:48,613 - INFO - ========================= PYTEST SESSION  END  =========================

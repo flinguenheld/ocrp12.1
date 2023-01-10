@@ -1,4 +1,4 @@
-from rest_framework.serializers import ModelSerializer
+from rest_framework.serializers import ModelSerializer, ValidationError
 
 from .models import Event
 from epic_crm.user.serializers import UserSerializerList
@@ -35,6 +35,12 @@ class EventSerializerCreateByCustomerAssignedUser(ModelSerializer):
         model = Event
         fields = ['pk', 'name', 'information', 'date', 'contract', 'assigned_user']
         read_only_fields = ['assigned_user']
+
+    def validate_contract(self, value):
+        if not value.is_signed:
+            raise ValidationError('You cannot create an event if the contract has not been signed')
+
+        return value
 
 
 class EventSerializerUpdateByAssignedUser(ModelSerializer):
