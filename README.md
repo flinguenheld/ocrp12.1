@@ -58,6 +58,13 @@ http://localhost:8000/admin/
     python manage.py createsuperuser
 
 ****
+### Permissions
+
+Once the first migration is done, the group 'sales' is added.  
+All users in this group are authorized to create a new customer.  
+Superuser and staff (managers) are allowed to add or remove users of this group.  
+
+****
 ### Testing
 
 This code used the framework [pytest](https://docs.pytest.org/en/latest/contents.html) and the plugin [pytest-django](https://pytest-django.readthedocs.io/en/latest/index.html) to test endpoints.  
