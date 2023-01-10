@@ -13,13 +13,16 @@ class Event(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
     date_updated = models.DateField(auto_now=True)
 
-    contract = models.OneToOneField(to=Contract, on_delete=models.CASCADE)
+    contract = models.OneToOneField(to=Contract,
+                                    on_delete=models.CASCADE,
+                                    related_name='event_of')
 
     assigned_user = models.ForeignKey(to=User,
                                       on_delete=models.SET_NULL,
                                       null=True,
                                       blank=True,
-                                      default=None)
+                                      default=None,
+                                      related_name='event_of')
 
     def __str__(self):
         return f"Event [ {self.pk} - {self.name} - {self.date} - {self.contract} ]"

@@ -8,5 +8,5 @@ urlpatterns = [
     path('', include('epic_crm.user.urls')),
     path('', include('epic_crm.customer.urls')),
     path('', include('epic_crm.contract.urls')),
-    # path('', include('epic_crm.event.urls')),
+    path('', include('epic_crm.event.urls')),
 ]
