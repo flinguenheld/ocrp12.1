@@ -10,21 +10,16 @@ from epic_crm.contract.models import Contract
 @pytest.mark.django_db
 class TestEventsWithAssignedUser:
 
-    def test_assigned_user_can_update_his_event(self, client_user_sophie, client_sales_mireille):
+    def test_assigned_user_can_update_his_event(self, client_user_sophie):
 
         sophie = User.objects.get(username='Sophie')
-        mireille = User.objects.get(username='Mireille')
-
-        customer = Customer.objects.create(name='name 0', assigned_user=mireille)
+        customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         event = Event.objects.create(name='name event 0',
                                      date='2020-10-20T00:00:00Z',
                                      contract=contract,
                                      assigned_user=sophie)
-
-        print(sophie.event_of.all())
-        print(sophie.event_of.filter(pk=event.pk))
 
         # --
         body = {'name': 'updated name',
@@ -41,16 +36,20 @@ class TestEventsWithAssignedUser:
         assert data['contract'] == contract.pk
         assert data['assigned_user'] == sophie.pk
 
-    # def test_assigned_user_cannot_delete_his_event(self, client_sales_mireille):
+    def test_assigned_user_cannot_delete_his_event(self, client_user_sophie):
 
-        # mireille = User.objects.get(username='Mireille')
-        # customer = Customer.objects.create(name='name 0', assigned_user=mireille)
-        # contract = Contract.objects.create(amount=1500, customer=customer)
-        # event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        sophie = User.objects.get(username='Sophie')
+        customer = Customer.objects.create(name='name 0')
+        contract = Contract.objects.create(amount=1500, customer=customer)
 
-        # # --
-        # response = client_sales_mireille.delete(f'/events/{event.pk}/')
-        # data = response.json()
+        event = Event.objects.create(name='name event 0',
+                                     date='2020-10-20T00:00:00Z',
+                                     contract=contract,
+                                     assigned_user=sophie)
 
-        # assert response.status_code == 403
-        # assert 'You do not have permission to perform this action.' in data['detail']
+        # --
+        response = client_user_sophie.delete(f'/events/{event.pk}/')
+        data = response.json()
+
+        assert response.status_code == 403
+        assert 'You do not have permission to perform this action.' in data['detail']

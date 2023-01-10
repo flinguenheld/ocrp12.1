@@ -59,16 +59,10 @@ class EventViewSet(mixins.ListModelMixin,
                 if self.request.user.is_staff:
                     return serializers.EventSerializerCreateByStaff
                 else:
-                    return serializers.EventSerializerCreate
+                    return serializers.EventSerializerCreateByCustomerAssignedUser
 
             case 'update':
-
                 if self.request.user.is_staff:
                     return serializers.EventSerializerCreateByStaff
-
-                # elif self.request.user.event_of.filter(pk=self.request.parser_context['kwargs']['pk']).count() == 1:
-                elif self.request.user.event_of.filter(pk=self.request.parser_context['kwargs']['pk']):
-                    return serializers.EventSerializerUpdateByAssignedUser
-
                 else:
-                    return serializers.EventSerializerCreate
+                    return serializers.EventSerializerUpdateByAssignedUser
