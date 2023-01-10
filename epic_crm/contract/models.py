@@ -10,7 +10,7 @@ class Contract(models.Model):
     date_updated = models.DateField(auto_now=True)
 
     amount = models.DecimalField(default=0.0, max_digits=15, decimal_places=2)
-    informations = models.CharField(max_length=500, blank=True)
+    information = models.CharField(max_length=500, blank=True)
 
     customer = models.ForeignKey(to=Customer,
                                  on_delete=models.CASCADE,

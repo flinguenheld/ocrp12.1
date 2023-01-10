@@ -96,7 +96,7 @@ class TestContracts:
         contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
 
         # --
-        body = {'amount': 1500.00, 'informations': 'blablabla'}
+        body = {'amount': 1500.00, 'information': 'blablabla'}
 
         response = client_user_sophie.put(f'/contracts/{contract.pk}/', data=body)
         data = response.json()
@@ -111,7 +111,7 @@ class TestContracts:
         contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
 
         # --
-        body = {'amount': 3333.33, 'informations': 'blablabla', 'customer': customer.pk}
+        body = {'amount': 3333.33, 'information': 'blablabla', 'customer': customer.pk}
 
         response = client_staff_jean.put(f'/contracts/{contract.pk}/', data=body)
         data = response.json()
@@ -128,7 +128,7 @@ class TestContracts:
         contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
 
         # --
-        body = {'amount': 3333.33, 'informations': 'blablabla', 'date_signed': '2020-06-10'}
+        body = {'amount': 3333.33, 'information': 'blablabla', 'date_signed': '2020-06-10'}
 
         response = client_sales_mireille.put(f'/contracts/{contract.pk}/', data=body)
         data = response.json()
@@ -136,7 +136,7 @@ class TestContracts:
         assert response.status_code == 200
         assert data['date_signed'] == '2020-06-10T00:00:00Z'
         assert data['amount'] == '3333.33'
-        assert data['informations'] == 'blablabla'
+        assert data['information'] == 'blablabla'
 
     def test_user_cannot_delete_a_contract(self, client_user_sophie):
 

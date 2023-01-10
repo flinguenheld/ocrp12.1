@@ -7,7 +7,7 @@ from epic_crm.contract.models import Contract
 class Event(models.Model):
 
     name = models.CharField(max_length=150, unique=True)
-    informations = models.CharField(max_length=500, blank=True)
+    information = models.CharField(max_length=500, blank=True)
 
     date = models.DateTimeField(blank=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)

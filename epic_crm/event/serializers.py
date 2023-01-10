@@ -19,21 +19,21 @@ class EventSerializerDetails(ModelSerializer):
 
     class Meta:
         model = Event
-        fields = ['pk', 'name', 'informations', 'date', 'date_created', 'date_updated', 'contract', 'assigned_user']
+        fields = ['pk', 'name', 'information', 'date', 'date_created', 'date_updated', 'contract', 'assigned_user']
 
 
 class EventSerializerCreateByStaff(ModelSerializer):
 
     class Meta:
         model = Event
-        fields = ['pk', 'name', 'informations', 'date', 'contract', 'assigned_user']
+        fields = ['pk', 'name', 'information', 'date', 'contract', 'assigned_user']
 
 
 class EventSerializerCreateByCustomerAssignedUser(ModelSerializer):
 
     class Meta:
         model = Event
-        fields = ['pk', 'name', 'informations', 'date', 'contract', 'assigned_user']
+        fields = ['pk', 'name', 'information', 'date', 'contract', 'assigned_user']
         read_only_fields = ['assigned_user']
 
 
@@ -41,5 +41,5 @@ class EventSerializerUpdateByAssignedUser(ModelSerializer):
 
     class Meta:
         model = Event
-        fields = ['pk', 'name', 'informations', 'date', 'contract', 'assigned_user']
+        fields = ['pk', 'name', 'information', 'date', 'contract', 'assigned_user']
         read_only_fields = ['contract', 'assigned_user']

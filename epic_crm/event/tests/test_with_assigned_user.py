@@ -24,7 +24,7 @@ class TestEventsWithAssignedUser:
         # --
         body = {'name': 'updated name',
                 'date': '2023-10-20T00:00:00Z',
-                'informations': 'Some information'}
+                'information': 'Some information'}
 
         response = client_user_sophie.put(f'/events/{event.pk}/', data=body)
         data = response.json()
@@ -32,7 +32,7 @@ class TestEventsWithAssignedUser:
         assert response.status_code == 200
         assert data['name'] == 'updated name'
         assert data['date'] == '2023-10-20T00:00:00Z'
-        assert data['informations'] == 'Some information'
+        assert data['information'] == 'Some information'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] == sophie.pk
 

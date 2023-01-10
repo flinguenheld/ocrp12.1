@@ -41,7 +41,7 @@ class TestEventsWithCustomerAssignedUser:
         # --
         body = {'name': 'updated name',
                 'date': '2023-10-20T00:00:00Z',
-                'informations': 'Some information'}
+                'information': 'Some information'}
 
         response = client_sales_mireille.put(f'/events/{event.pk}/', data=body)
         data = response.json()

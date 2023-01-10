@@ -18,19 +18,19 @@ class ContractSerializerDetails(ModelSerializer):
     class Meta:
         model = Contract
         fields = ['pk', 'date_signed', 'date_created', 'date_updated',
-                  'amount', 'informations', 'customer', 'is_signed']
+                  'amount', 'information', 'customer', 'is_signed']
 
 
 class ContractSerializerCreate(ModelSerializer):
 
     class Meta:
         model = Contract
-        fields = ['pk', 'date_signed', 'amount', 'informations', 'customer']
+        fields = ['pk', 'date_signed', 'amount', 'information', 'customer']
 
 
 class ContractSerializerUpdateBySalesPeople(ModelSerializer):
 
     class Meta:
         model = Contract
-        fields = ['pk', 'date_signed', 'amount', 'informations', 'customer']
+        fields = ['pk', 'date_signed', 'amount', 'information', 'customer']
         read_only_fields = ['customer']
