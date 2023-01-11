@@ -91,13 +91,13 @@ class TestContractFilters:
     def test_contracts_filter_by_date_signed(self, client_user_sophie):
 
         customer_a = Customer.objects.create(name='aaaa', email='a@a.com')
-        Contract.objects.create(customer=customer_a, date_signed='2010-10-10T00:00:00Z', amount=100)
+        Contract.objects.create(customer=customer_a, date_signed='2010-10-10', amount=100)
 
         customer_b = Customer.objects.create(name='bbbb', email='b@b.com')
-        Contract.objects.create(customer=customer_b, date_signed='2015-05-15T00:00:00Z', amount=200)
+        Contract.objects.create(customer=customer_b, date_signed='2015-05-15', amount=200)
 
         customer_c = Customer.objects.create(name='cccc', email='c@c.com')
-        Contract.objects.create(customer=customer_c, date_signed='2020-02-20T00:00:00Z', amount=300)
+        Contract.objects.create(customer=customer_c, date_signed='2020-02-20', amount=300)
 
         # --
         response = client_user_sophie.get('/contracts/?date_signed=2020-02-20')

@@ -5,9 +5,9 @@ from epic_crm.customer.models import Customer
 
 class Contract(models.Model):
 
-    date_signed = models.DateTimeField(blank=True, null=True)
+    date_signed = models.DateField(blank=True, null=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
-    date_updated = models.DateField(auto_now=True)
+    date_updated = models.DateTimeField(auto_now=True)
 
     amount = models.DecimalField(default=0.0, max_digits=15, decimal_places=2)
     information = models.CharField(max_length=500, blank=True)

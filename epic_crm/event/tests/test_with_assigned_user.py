@@ -17,13 +17,13 @@ class TestEventsWithAssignedUser:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         event = Event.objects.create(name='name event 0',
-                                     date='2020-10-20T00:00:00Z',
+                                     date='2020-10-20',
                                      contract=contract,
                                      assigned_user=sophie)
 
         # --
         body = {'name': 'updated name',
-                'date': '2023-10-20T00:00:00Z',
+                'date': '2023-10-20',
                 'information': 'Some information'}
 
         response = client_user_sophie.put(f'/events/{event.pk}/', data=body)
@@ -31,7 +31,7 @@ class TestEventsWithAssignedUser:
 
         assert response.status_code == 200
         assert data['name'] == 'updated name'
-        assert data['date'] == '2023-10-20T00:00:00Z'
+        assert data['date'] == '2023-10-20'
         assert data['information'] == 'Some information'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] == sophie.pk
@@ -43,7 +43,7 @@ class TestEventsWithAssignedUser:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         event = Event.objects.create(name='name event 0',
-                                     date='2020-10-20T00:00:00Z',
+                                     date='2020-10-20',
                                      contract=contract,
                                      assigned_user=sophie)
 

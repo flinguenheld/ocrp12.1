@@ -9,9 +9,9 @@ class Event(models.Model):
     name = models.CharField(max_length=150, unique=True)
     information = models.CharField(max_length=500, blank=True)
 
-    date = models.DateTimeField(blank=True)
+    date = models.DateField(blank=True, null=True)
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
-    date_updated = models.DateField(auto_now=True)
+    date_updated = models.DateTimeField(auto_now=True)
 
     contract = models.ForeignKey(to=Contract,
                                  on_delete=models.CASCADE,

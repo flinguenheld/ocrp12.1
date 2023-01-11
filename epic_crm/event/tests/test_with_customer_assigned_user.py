@@ -14,17 +14,17 @@ class TestEventsWithCustomerAssignedUser:
 
         mireille = User.objects.get(username='Mireille')
         customer = Customer.objects.create(name='name 0', assigned_user=mireille)
-        contract = Contract.objects.create(amount=1500, customer=customer, date_signed='2020-10-20T00:00:00Z')
+        contract = Contract.objects.create(amount=1500, customer=customer, date_signed='2020-10-20')
 
         # --
-        body = {'name': 'new event', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
+        body = {'name': 'new event', 'date': '2023-10-20', 'contract': contract.pk}
 
         response = client_sales_mireille.post('/events/', data=body)
         data = response.json()
 
         assert response.status_code == 201
         assert data['name'] == 'new event'
-        assert data['date'] == '2023-10-20T00:00:00Z'
+        assert data['date'] == '2023-10-20'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] is None
 
@@ -35,7 +35,7 @@ class TestEventsWithCustomerAssignedUser:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         # --
-        body = {'name': 'new event', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
+        body = {'name': 'new event', 'date': '2023-10-20', 'contract': contract.pk}
 
         response = client_sales_mireille.post('/events/', data=body)
         data = response.json()
@@ -51,12 +51,12 @@ class TestEventsWithCustomerAssignedUser:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         event = Event.objects.create(name='name event 0',
-                                     date='2020-10-20T00:00:00Z',
+                                     date='2020-10-20',
                                      contract=contract)
 
         # --
         body = {'name': 'updated name',
-                'date': '2023-10-20T00:00:00Z',
+                'date': '2023-10-20',
                 'information': 'Some information'}
 
         response = client_sales_mireille.put(f'/events/{event.pk}/', data=body)
@@ -72,7 +72,7 @@ class TestEventsWithCustomerAssignedUser:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         event = Event.objects.create(name='name event 0',
-                                     date='2020-10-20T00:00:00Z',
+                                     date='2020-10-20',
                                      contract=contract)
 
         # --

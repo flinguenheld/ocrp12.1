@@ -12,15 +12,15 @@ class TestEventsFilters:
 
         customer_c = Customer.objects.create(name='cccc', email='c@c.com')
         contract_c = Contract.objects.create(customer=customer_c)
-        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25T00:00:00Z')
+        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25')
 
         customer_a = Customer.objects.create(name='aaaa', email='a@a.com')
         contract_a = Contract.objects.create(customer=customer_a)
-        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15T00:00:00Z')
+        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15')
 
         customer_b = Customer.objects.create(name='bbbb', email='b@b.com')
         contract_b = Contract.objects.create(customer=customer_b)
-        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20T00:00:00Z')
+        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20')
 
         # --
         response = client_user_sophie.get('/events/')
@@ -35,15 +35,15 @@ class TestEventsFilters:
 
         customer_a = Customer.objects.create(name='aaaa', email='a@a.com')
         contract_a = Contract.objects.create(customer=customer_a)
-        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15T00:00:00Z')
+        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15')
 
         customer_b = Customer.objects.create(name='bbbb', email='b@b.com')
         contract_b = Contract.objects.create(customer=customer_b)
-        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20T00:00:00Z')
+        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20')
 
         customer_c = Customer.objects.create(name='cccc', email='c@c.com')
         contract_c = Contract.objects.create(customer=customer_c)
-        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25T00:00:00Z')
+        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25')
 
         # --
         response = client_user_sophie.get('/events/?contract__customer__name=aaaa')
@@ -56,15 +56,15 @@ class TestEventsFilters:
 
         customer_a = Customer.objects.create(name='aaaa', email='a@a.com')
         contract_a = Contract.objects.create(customer=customer_a)
-        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15T00:00:00Z')
+        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15')
 
         customer_b = Customer.objects.create(name='bbbb', email='b@b.com')
         contract_b = Contract.objects.create(customer=customer_b)
-        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20T00:00:00Z')
+        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20')
 
         customer_c = Customer.objects.create(name='cccc', email='c@c.com')
         contract_c = Contract.objects.create(customer=customer_c)
-        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25T00:00:00Z')
+        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25')
 
         # --
         response = client_user_sophie.get('/events/?contract__customer__email__contains=b@')
@@ -77,15 +77,15 @@ class TestEventsFilters:
 
         customer_a = Customer.objects.create(name='aaaa', email='a@a.com')
         contract_a = Contract.objects.create(customer=customer_a)
-        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15T00:00:00Z')
+        Event.objects.create(name='event a', contract=contract_a, date='2015-05-15')
 
         customer_b = Customer.objects.create(name='bbbb', email='b@b.com')
         contract_b = Contract.objects.create(customer=customer_b)
-        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20T00:00:00Z')
+        Event.objects.create(name='event b', contract=contract_b, date='2020-02-20')
 
         customer_c = Customer.objects.create(name='cccc', email='c@c.com')
         contract_c = Contract.objects.create(customer=customer_c)
-        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25T00:00:00Z')
+        Event.objects.create(name='event c', contract=contract_c, date='2025-05-25')
 
         # --
         response = client_user_sophie.get('/events/?date=2020-02-20')

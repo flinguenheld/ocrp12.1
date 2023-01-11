@@ -22,8 +22,8 @@ class TestEvents:
         contract_0 = Contract.objects.create(amount=1500, customer=customer)
         contract_1 = Contract.objects.create(amount=3300.44, customer=customer)
 
-        Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract_1)
-        Event.objects.create(name='name event 1', date='2015-05-15T00:00:00Z', contract=contract_0)
+        Event.objects.create(name='name event 0', date='2020-10-20', contract=contract_1)
+        Event.objects.create(name='name event 1', date='2015-05-15', contract=contract_0)
 
         # --
         response = client_user_sophie.get('/events/')
@@ -37,7 +37,7 @@ class TestEvents:
 
         customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
-        event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        event = Event.objects.create(name='name event 0', date='2020-10-20', contract=contract)
 
         # --
         response = client_user_sophie.get(f'/events/{event.pk}/')
@@ -45,7 +45,7 @@ class TestEvents:
 
         assert response.status_code == 200
         assert data['name'] == 'name event 0'
-        assert data['date'] == '2020-10-20T00:00:00Z'
+        assert data['date'] == '2020-10-20'
         assert data['contract']['pk'] == contract.pk
 
     def test_user_cannot_create_an_event(self, client_user_sophie):
@@ -54,7 +54,7 @@ class TestEvents:
         contract = Contract.objects.create(amount=1500, customer=customer)
 
         # --
-        body = {'name': 'new event', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
+        body = {'name': 'new event', 'date': '2023-10-20', 'contract': contract.pk}
 
         response = client_user_sophie.post('/events/', data=body)
         data = response.json()
@@ -66,10 +66,10 @@ class TestEvents:
 
         customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
-        event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        event = Event.objects.create(name='name event 0', date='2020-10-20', contract=contract)
 
         # --
-        body = {'name': 'updated name', 'date': '2023-10-20T00:00:00Z', 'contract': contract.pk}
+        body = {'name': 'updated name', 'date': '2023-10-20', 'contract': contract.pk}
 
         response = client_user_sophie.put(f'/events/{event.pk}/', data=body)
         data = response.json()
@@ -81,7 +81,7 @@ class TestEvents:
 
         customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
-        event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        event = Event.objects.create(name='name event 0', date='2020-10-20', contract=contract)
 
         # --
         response = client_user_sophie.delete(f'/events/{event.pk}/')

@@ -18,7 +18,7 @@ class TestEventsWithStaff:
 
         # --
         body = {'name': 'new event',
-                'date': '2023-10-20T00:00:00Z',
+                'date': '2023-10-20',
                 'contract': contract.pk,
                 'assigned_user': user.pk}
 
@@ -27,7 +27,7 @@ class TestEventsWithStaff:
 
         assert response.status_code == 201
         assert data['name'] == 'new event'
-        assert data['date'] == '2023-10-20T00:00:00Z'
+        assert data['date'] == '2023-10-20'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] == user.pk
 
@@ -37,11 +37,11 @@ class TestEventsWithStaff:
 
         customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
-        event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        event = Event.objects.create(name='name event 0', date='2020-10-20', contract=contract)
 
         # --
         body = {'name': 'updated name',
-                'date': '2023-10-20T00:00:00Z',
+                'date': '2023-10-20',
                 'contract': contract.pk,
                 'assigned_user': user.pk}
 
@@ -50,7 +50,7 @@ class TestEventsWithStaff:
 
         assert response.status_code == 200
         assert data['name'] == 'updated name'
-        assert data['date'] == '2023-10-20T00:00:00Z'
+        assert data['date'] == '2023-10-20'
         assert data['contract'] == contract.pk
         assert data['assigned_user'] == user.pk
 
@@ -58,7 +58,7 @@ class TestEventsWithStaff:
 
         customer = Customer.objects.create(name='name 0')
         contract = Contract.objects.create(amount=1500, customer=customer)
-        event = Event.objects.create(name='name event 0', date='2020-10-20T00:00:00Z', contract=contract)
+        event = Event.objects.create(name='name event 0', date='2020-10-20', contract=contract)
 
         # --
         response = client_staff_jean.delete(f'/events/{event.pk}/')

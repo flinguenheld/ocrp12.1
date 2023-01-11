@@ -10,31 +10,28 @@ Develop a Secure Back-End Architecture Using Django ORM
 
 
 ****
-### Documentation
+### Installation
 
-All endpoints are explained in the Postman documentation :  
+Open your terminal and navigate to the folder where you want to install the API.  
+Then, clone this repository :
 
-[![Logo PostMan](https://raw.githubusercontent.com/FLinguenheld/ocrp12.1/main/logos/postman.png "Postman")](https://documenter.getpostman.com/view/19051270/2s8YzXwLV1)
+    git clone https://github.com/FLinguenheld/ocrp12.1
 
-To easily add several users, you can use the file *postman_init.py*.  
-💡 You need user credentials who's authorised to create new users (admin or manager).  
+Navigate into the *ocrp12.1/* folder and create a virtual environment :
 
-Launch the server in a terminal. Then open a new one, move into the root folder and use the command :  
+    python -m venv env
 
-    python postman_init.py --email <admin@epiccrm.com> --password <admin01234>
+Activate it :
 
-Five users will be created :
+    source env/bin/activate
 
-    manager@postman.com
-    salesperson@postman.com
-    salesperson_2@postman.com
-    technical_support@postman.com
-    test@test.com
+Necessary packages are listed in the file *requirement.txt*.  
+Install them :
 
-    test01234
+    pip install -r requirement.txt
 
-****
-### Database
+
+#### Database
 
 This application uses [postgresql](https://www.postgresql.org). You have to install it according to your distribution then 
 create a dabase and an user with this information :
@@ -52,16 +49,10 @@ Here an example to create or delete a database :
     create database epic_events;
     drop database epic_events;
 
-Django administration is activated, you can create a superuser and open it with the link :  
-http://localhost:8000/admin/
+#### Permissions
 
-    python manage.py createsuperuser
-
-****
-### Permissions
-
-Once the first migration is done, groups 'manager' and 'sales' are added.  
-To create a manager, create a new user, check the box **staff** and add the group **manager**.  
+Once the first migration is done, groups *manager* and *sales* are automatically added.  
+💡 To create a manager, create a new user, check the box *staff* and add the group *manager*.  
 
 - manager :  
 All staff users can open the admin panel (with restricted actions) and due to the manager group, they can manipulate data.  
@@ -70,6 +61,30 @@ Staff users also have a write access on all endpoints.
 - sales :  
 All users in this group are authorized to create a new customer.  
 Superuser and staff (managers) are allowed to add or remove users of this group.  
+
+****
+### Launch
+
+Navigate into the *ocrp12.1/* folder and activate the virtual environment.  
+Launch the server with the command :
+
+    python manage.py runserver
+
+Then, you can use your browser, Postman or your terminal as well.
+
+    http://localhost:8000/
+
+Django administration is activated, you can create a superuser and open it with the link :  
+http://localhost:8000/admin/
+
+    python manage.py createsuperuser
+
+****
+### Documentation
+
+All endpoints are explained in the Postman documentation :  
+
+[![Logo PostMan](https://raw.githubusercontent.com/FLinguenheld/ocrp12.1/main/logos/postman.png "Postman")](https://documenter.getpostman.com/view/19051270/2s8YzXwLV1)
 
 ****
 ### Testing

@@ -33,7 +33,7 @@ class TestContracts:
     def test_user_can_get_contract_details(self, client_user_sophie):
 
         customer = Customer.objects.create(name='name 0')
-        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
+        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15')
 
         # --
         response = client_user_sophie.get(f'/contracts/{contract.pk}/')
@@ -93,7 +93,7 @@ class TestContracts:
 
         user = User.objects.create_user(username='aaaaa', password='test01234')
         customer = Customer.objects.create(name='name 0', assigned_user=user)
-        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
+        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15')
 
         # --
         body = {'amount': 1500.00, 'information': 'blablabla'}
@@ -108,7 +108,7 @@ class TestContracts:
 
         user = User.objects.create_user(username='aaaaa', password='test01234')
         customer = Customer.objects.create(name='name 0', assigned_user=user)
-        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
+        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15')
 
         # --
         body = {'amount': 3333.33, 'information': 'blablabla', 'customer': customer.pk}
@@ -117,7 +117,7 @@ class TestContracts:
         data = response.json()
 
         assert response.status_code == 200
-        assert data['date_signed'] == '2015-05-15T00:00:00Z'
+        assert data['date_signed'] == '2015-05-15'
         assert data['amount'] == '3333.33'
         assert data['customer'] == customer.pk
 
@@ -125,7 +125,7 @@ class TestContracts:
 
         mireille = User.objects.get(username='Mireille')
         customer = Customer.objects.create(name='name 0', assigned_user=mireille)
-        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15T00:00:00Z')
+        contract = Contract.objects.create(amount=1500.00, customer=customer, date_signed='2015-05-15')
 
         # --
         body = {'amount': 3333.33, 'information': 'blablabla', 'date_signed': '2020-06-10'}
@@ -134,7 +134,7 @@ class TestContracts:
         data = response.json()
 
         assert response.status_code == 200
-        assert data['date_signed'] == '2020-06-10T00:00:00Z'
+        assert data['date_signed'] == '2020-06-10'
         assert data['amount'] == '3333.33'
         assert data['information'] == 'blablabla'
 
