@@ -60,7 +60,14 @@ http://localhost:8000/admin/
 ****
 ### Permissions
 
-Once the first migration is done, the group 'sales' is added.  
+Once the first migration is done, groups 'manager' and 'sales' are added.  
+To create a manager, create a new user, check the box **staff** and add the group **manager**.  
+
+- manager :  
+All staff users can open the admin panel (with restricted actions) and due to the manager group, they can manipulate data.  
+Staff users also have a write access on all endpoints.  
+
+- sales :  
 All users in this group are authorized to create a new customer.  
 Superuser and staff (managers) are allowed to add or remove users of this group.  
 

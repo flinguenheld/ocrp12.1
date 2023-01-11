@@ -13,9 +13,9 @@ class Event(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, editable=False)
     date_updated = models.DateField(auto_now=True)
 
-    contract = models.OneToOneField(to=Contract,
-                                    on_delete=models.CASCADE,
-                                    related_name='event_of')
+    contract = models.ForeignKey(to=Contract,
+                                 on_delete=models.CASCADE,
+                                 related_name='event_of')
 
     assigned_user = models.ForeignKey(to=User,
                                       on_delete=models.SET_NULL,
