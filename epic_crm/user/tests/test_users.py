@@ -39,7 +39,7 @@ class TestUsers:
         assert data['username'] == 'name_0'
         assert data['email'] == 'a@a.com'
 
-    def test_user_cannot_create_an_user(self, client_user_sophie):
+    def test_user_cannot_create_a_user(self, client_user_sophie):
 
         body = {'username': 'Sam',
                 'password': 'test01234'}
@@ -50,7 +50,7 @@ class TestUsers:
         assert response.status_code == 403
         assert 'You do not have permission to perform this action.' in data['detail']
 
-    def test_staff_can_create_an_user(self, client_staff_jean):
+    def test_staff_can_create_a_user(self, client_staff_jean):
 
         body = {'username': 'Sam',
                 'password': 'test01234',
@@ -63,7 +63,7 @@ class TestUsers:
         assert data['username'] == 'Sam'
         assert data['email'] == 'sam@test.com'
 
-    def test_user_cannot_update_an_user(self, client_user_sophie):
+    def test_user_cannot_update_a_user(self, client_user_sophie):
 
         user = User.objects.create_user(username='name_0', password='test01234', email='a@a.com')
 
@@ -79,7 +79,7 @@ class TestUsers:
         assert response.status_code == 403
         assert 'You do not have permission to perform this action.' in data['detail']
 
-    def test_staff_can_update_an_user(self, client_staff_jean):
+    def test_staff_can_update_a_user(self, client_staff_jean):
 
         user = User.objects.create_user(username='name_0', password='test01234', email='a@a.com')
 
@@ -98,7 +98,7 @@ class TestUsers:
         assert data['first_name'] == 'Samuel'
         assert data['last_name'] == 'Ronchant'
 
-    def test_user_cannot_delete_an_user(self, client_user_sophie):
+    def test_user_cannot_delete_a_user(self, client_user_sophie):
 
         user = User.objects.create_user(username='name_0', password='test01234')
 
@@ -109,7 +109,7 @@ class TestUsers:
         assert response.status_code == 403
         assert 'You do not have permission to perform this action.' in data['detail']
 
-    def test_staff_can_delete_an_user(self, client_staff_jean):
+    def test_staff_can_delete_a_user(self, client_staff_jean):
 
         user = User.objects.create_user(username='name_0', password='test01234')
 
@@ -119,7 +119,7 @@ class TestUsers:
         assert response.status_code == 204
         assert User.objects.filter(username='name_0').count() == 0
 
-    def test_user_cannot_add_nor_remove_groups_to_an_user(self, client_user_sophie):
+    def test_user_cannot_add_nor_remove_groups_to_a_user(self, client_user_sophie):
 
         init_groups()
         user = User.objects.create_user(username='name_0', password='test01234')
@@ -139,7 +139,7 @@ class TestUsers:
         assert 'You do not have permission to perform this action.' in data['detail']
         assert not user.groups.filter(name='manager')
 
-    def test_staff_can_add_and_remove_group_sales_to_an_user(self, client_staff_jean):
+    def test_staff_can_add_and_remove_group_sales_to_a_user(self, client_staff_jean):
 
         init_groups()
         user = User.objects.create_user(username='name_0', password='test01234')
@@ -158,7 +158,7 @@ class TestUsers:
         assert 'User has been removed in the group sales' in data['detail']
         assert not user.groups.filter(name='sales')
 
-    def test_staff_can_add_and_remove_group_manager_to_an_user(self, client_staff_jean):
+    def test_staff_can_add_and_remove_group_manager_to_a_user(self, client_staff_jean):
 
         init_groups()
         user = User.objects.create_user(username='name_0', password='test01234')

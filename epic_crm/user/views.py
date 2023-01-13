@@ -18,7 +18,7 @@ class UserFilter(django_filters.FilterSet):
         fields = {
             'username': ['exact', 'contains'],
             'email': ['exact', 'contains'],
-            'last_login': ['exact', 'gt', 'lt', 'gte', 'lte'],
+            'groups__name': ['exact']
         }
 
 

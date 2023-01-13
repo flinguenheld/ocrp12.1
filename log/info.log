@@ -3757,3 +3757,334 @@ KeyError: 'assigned_user'
 2023-01-13 20:35:42,277 - WARNING - Forbidden: /users/75/set_sales/
 2023-01-13 20:35:42,279 - WARNING - Forbidden: /users/75/set_manager/
 2023-01-13 20:35:42,857 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:41:23,434 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:41:24,156 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:41:57,145 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:41:57,875 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:42:34,373 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:42:35,102 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:42:42,502 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:42:43,197 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:51:14,683 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:51:15,896 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:51:35,125 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:51:36,326 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:51:46,003 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:51:47,210 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:52:05,493 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:52:06,678 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:52:14,557 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:52:15,760 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:53:27,345 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:53:28,532 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:53:45,201 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:53:46,351 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:56:46,089 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:56:47,708 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:57:30,311 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:57:31,930 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 20:58:20,609 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 20:58:22,184 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:03:11,019 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:03:13,337 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:04:30,376 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:04:32,566 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:04:56,392 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:04:58,593 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:05:17,564 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:05:19,801 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:06:13,952 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:06:16,171 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:07:31,654 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:07:33,994 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:07:44,823 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:07:47,050 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:08:09,957 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:08:12,196 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:09:50,199 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:09:52,447 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:10:12,460 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:10:14,621 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:11:03,271 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11401
+2023-01-13 21:11:03,300 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-13 21:11:03,365 - WARNING - Not Found: /favicon.ico
+2023-01-13 21:11:04,806 - INFO - "GET /admin/auth/user/86/change/ HTTP/1.1" 200 18487
+2023-01-13 21:11:04,832 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-13 21:11:29,499 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:11:31,724 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:11:35,300 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:11:37,487 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:11:50,936 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:11:53,124 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:12:16,668 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:12:18,865 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:12:26,401 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:12:26,701 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:13:44,504 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:13:44,776 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:14:25,263 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:14:25,545 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:14:37,590 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:18:49,120 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:18:51,091 - WARNING - Bad Request: /users/
+2023-01-13 21:18:51,143 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:19:08,441 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:19:10,418 - WARNING - Bad Request: /users/
+2023-01-13 21:19:10,470 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:19:53,430 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:19:53,701 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:20:06,084 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:20:07,870 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:20:47,067 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:20:53,121 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:20:55,170 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:21:34,829 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:21:36,856 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:21:50,755 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:21:51,029 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:21:52,643 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:21:54,411 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:21:59,240 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:23:52,622 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:05,877 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:06,161 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:12,984 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:24:13,680 - ERROR - Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 35, in get_filterset_class
+    filterset_model = filterset_class._meta.model
+                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_meta'
+2023-01-13 21:24:14,195 - ERROR - Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 35, in get_filterset_class
+    filterset_model = filterset_class._meta.model
+                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_meta'
+2023-01-13 21:24:14,672 - ERROR - Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 35, in get_filterset_class
+    filterset_model = filterset_class._meta.model
+                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_meta'
+2023-01-13 21:24:15,155 - ERROR - Internal Server Error: /users/
+Traceback (most recent call last):
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/rest_framework/generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/flo/coursoc/ocrp12.1/env/lib64/python3.11/site-packages/django_filters/rest_framework/backends.py", line 35, in get_filterset_class
+    filterset_model = filterset_class._meta.model
+                      ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute '_meta'
+2023-01-13 21:24:15,241 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:24:24,462 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:24,763 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:25,912 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:26,187 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:27,339 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:27,631 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:28,784 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:29,100 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:30,256 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:30,542 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:24:32,636 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:24:32,904 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:26:42,151 - INFO - /home/flo/coursoc/ocrp12.1/epic_crm/user/views.py changed, reloading.
+2023-01-13 21:26:42,426 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:26:51,033 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:27:01,979 - INFO - Watching for file changes with StatReloader
+2023-01-13 21:27:17,560 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:27:19,593 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:27:32,034 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:27:34,055 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:28:21,791 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:28:23,789 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:30:54,675 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:30:56,707 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:57:34,971 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:57:35,222 - WARNING - Unauthorized: /contracts/
+2023-01-13 21:57:35,855 - WARNING - Forbidden: /contracts/
+2023-01-13 21:57:36,571 - WARNING - Forbidden: /contracts/6/
+2023-01-13 21:57:37,204 - WARNING - Forbidden: /contracts/9/
+2023-01-13 21:57:37,391 - WARNING - Forbidden: /contracts/10/
+2023-01-13 21:57:38,448 - WARNING - Unauthorized: /customers/
+2023-01-13 21:57:38,977 - WARNING - Forbidden: /customers/
+2023-01-13 21:57:39,599 - WARNING - Forbidden: /customers/32/
+2023-01-13 21:57:40,217 - WARNING - Forbidden: /customers/35/
+2023-01-13 21:57:40,399 - WARNING - Forbidden: /customers/36/
+2023-01-13 21:57:42,149 - WARNING - Forbidden: /events/14/
+2023-01-13 21:57:42,522 - WARNING - Bad Request: /events/
+2023-01-13 21:57:42,708 - WARNING - Forbidden: /events/16/
+2023-01-13 21:57:42,894 - WARNING - Forbidden: /events/17/
+2023-01-13 21:57:43,596 - WARNING - Unauthorized: /events/
+2023-01-13 21:57:44,126 - WARNING - Forbidden: /events/
+2023-01-13 21:57:44,305 - WARNING - Forbidden: /events/24/
+2023-01-13 21:57:44,481 - WARNING - Forbidden: /events/25/
+2023-01-13 21:57:44,569 - WARNING - Unauthorized: /login/
+2023-01-13 21:57:46,484 - WARNING - Unauthorized: /users/
+2023-01-13 21:57:47,276 - WARNING - Forbidden: /users/
+2023-01-13 21:57:47,800 - WARNING - Forbidden: /users/83/
+2023-01-13 21:57:48,314 - WARNING - Forbidden: /users/87/
+2023-01-13 21:57:48,837 - WARNING - Forbidden: /users/91/set_sales/
+2023-01-13 21:57:48,838 - WARNING - Forbidden: /users/91/set_manager/
+2023-01-13 21:57:49,403 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-13 21:58:24,356 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-13 21:58:24,606 - WARNING - Unauthorized: /contracts/
+2023-01-13 21:58:25,237 - WARNING - Forbidden: /contracts/
+2023-01-13 21:58:25,949 - WARNING - Forbidden: /contracts/6/
+2023-01-13 21:58:26,581 - WARNING - Forbidden: /contracts/9/
+2023-01-13 21:58:26,767 - WARNING - Forbidden: /contracts/10/
+2023-01-13 21:58:27,834 - WARNING - Unauthorized: /customers/
+2023-01-13 21:58:28,358 - WARNING - Forbidden: /customers/
+2023-01-13 21:58:28,976 - WARNING - Forbidden: /customers/32/
+2023-01-13 21:58:29,594 - WARNING - Forbidden: /customers/35/
+2023-01-13 21:58:29,784 - WARNING - Forbidden: /customers/36/
+2023-01-13 21:58:31,543 - WARNING - Forbidden: /events/14/
+2023-01-13 21:58:31,916 - WARNING - Bad Request: /events/
+2023-01-13 21:58:32,104 - WARNING - Forbidden: /events/16/
+2023-01-13 21:58:32,289 - WARNING - Forbidden: /events/17/
+2023-01-13 21:58:32,994 - WARNING - Unauthorized: /events/
+2023-01-13 21:58:33,523 - WARNING - Forbidden: /events/
+2023-01-13 21:58:33,698 - WARNING - Forbidden: /events/24/
+2023-01-13 21:58:33,871 - WARNING - Forbidden: /events/25/
+2023-01-13 21:58:33,959 - WARNING - Unauthorized: /login/
+2023-01-13 21:58:35,859 - WARNING - Unauthorized: /users/
+2023-01-13 21:58:36,636 - WARNING - Forbidden: /users/
+2023-01-13 21:58:37,159 - WARNING - Forbidden: /users/83/
+2023-01-13 21:58:37,683 - WARNING - Forbidden: /users/87/
+2023-01-13 21:58:38,214 - WARNING - Forbidden: /users/91/set_sales/
+2023-01-13 21:58:38,215 - WARNING - Forbidden: /users/91/set_manager/
+2023-01-13 21:58:38,784 - INFO - ========================= PYTEST SESSION  END  =========================
