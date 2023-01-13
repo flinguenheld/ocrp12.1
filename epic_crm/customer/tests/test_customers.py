@@ -53,8 +53,12 @@ class TestCustomers:
 
     def test_staff_can_create_a_customer(self, client_staff_jean):
 
+        user = User.objects.create_user(username='aaaa', password='test01234')
+
+        # --
         body = {'name': 'Test name',
-                'phone': '0600000000'}
+                'phone': '0600000000',
+                'assigned_user': user.pk}
 
         response = client_staff_jean.post('/customers/', data=body)
         data = response.json()
@@ -62,13 +66,14 @@ class TestCustomers:
         assert response.status_code == 201
         assert data['name'] == 'Test name'
         assert data['phone'] == '0600000000'
-        assert data['assigned_user'] == User.objects.get(username='Jean').pk
+        assert data['assigned_user'] == user.pk
 
     def test_user_in_group_sales_can_create_a_customer(self, client_sales_mireille):
 
         body = {'name': 'Test name',
                 'phone': '0600000000'}
 
+        # --
         response = client_sales_mireille.post('/customers/', data=body)
         data = response.json()
 

@@ -60,4 +60,8 @@ class CustomerViewSet(mixins.ListModelMixin,
                 return serializers.CustomerSerializerCreate
 
     def perform_create(self, serializer):
-        serializer.save(assigned_user=self.request.user)
+        """ Auto assign the creator if he's not admin """
+        if self.request.user.is_superuser or self.request.user.is_staff:
+            serializer.save()
+        else:
+            serializer.save(assigned_user=self.request.user)
