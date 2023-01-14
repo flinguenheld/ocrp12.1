@@ -6,7 +6,7 @@ from .models import Event
 @admin.register(Event)
 class EventAdmin(admin.ModelAdmin):
 
-    list_filter = ('name', 'date', 'contract', 'assigned_user')
+    list_filter = ('date', 'contract', 'assigned_user')
 
     list_display = (
             'name',

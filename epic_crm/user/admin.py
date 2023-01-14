@@ -13,10 +13,29 @@ init_groups()
 admin.site.unregister(User)
 
 
+class AssignmentListFilter(admin.SimpleListFilter):
+    title = 'Assignment'
+    parameter_name = 'assigned'
+
+    def lookups(self, request, model_admin):
+        return (
+            ('Tech', 'to an event'),
+            ('Sales', 'to a customer'),
+         )
+
+    def queryset(self, request, queryset):
+
+        if self.value() == 'Tech':
+            return User.objects.exclude(event_of=None)
+
+        if self.value() == 'Sales':
+            return User.objects.exclude(customer_of=None)
+
+
 @admin.register(User)
 class CustomUserAdmin(UserAdmin):
 
-    list_filter = ('is_staff', 'is_superuser')
+    list_filter = ('is_staff', 'groups', AssignmentListFilter)
 
     def get_queryset(self, request):
         if request.user.is_superuser:

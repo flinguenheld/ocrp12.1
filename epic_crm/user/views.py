@@ -14,11 +14,12 @@ from . import serializers
 
 class UserFilter(django_filters.FilterSet):
     class Meta:
+
         model = User
         fields = {
             'username': ['exact', 'contains'],
             'email': ['exact', 'contains'],
-            'groups__name': ['exact']
+            'groups__name': ['exact'],
         }
 
 
@@ -36,7 +37,11 @@ class UserViewSet(mixins.ListModelMixin,
 
     def get_permissions(self):
 
-        if self.action == 'list' or self.action == 'retrieve':
+        if (self.action == 'list' or
+            self.action == 'retrieve' or
+            self.action == 'list_technicians' or
+            self.action == 'list_salespeople'):
+
             self.permission_classes = [IsAuthenticated]
         else:
             self.permission_classes = [IsAdminUser]
@@ -58,12 +63,21 @@ class UserViewSet(mixins.ListModelMixin,
             case 'update':
                 return serializers.UserSerializerUpdate
 
-    # --
-    @action(methods=['put'], detail=True, permission_classes=[IsAdminUser])
+    # List assigned users --
+    @action(methods=['get'], detail=False)
+    def list_technicians(self, request):
+        return Response(data=serializers.UserSerializerList(User.objects.exclude(event_of=None), many=True).data)
+
+    @action(methods=['get'], detail=False)
+    def list_salespeople(self, request):
+        return Response(data=serializers.UserSerializerList(User.objects.exclude(customer_of=None), many=True).data)
+
+    # Set groups --
+    @action(methods=['put'], detail=True)
     def set_manager(self, request, pk=None):
         return self._set_group(pk=pk, group_name='manager')
 
-    @action(methods=['put'], detail=True, permission_classes=[IsAdminUser])
+    @action(methods=['put'], detail=True)
     def set_sales(self, request, pk=None):
         return self._set_group(pk=pk, group_name='sales')
 

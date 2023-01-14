@@ -153,8 +153,8 @@ events = {
                         'status': 'Create event with cogip'},
 
         'eventcogip2': {'pk': 0,
-                        'body': {'name': 'Cogip creation',
-                                 'information': 'louloulou',
+                        'body': {'name': 'Cogip creation (after)',
+                                 'information': 'lililililili',
                                  'contract': contracts['contractcogip1']['pk'],
                                  'assigned_user': users['Jean']['pk'],
                                  'date': '2023-05-24'},
