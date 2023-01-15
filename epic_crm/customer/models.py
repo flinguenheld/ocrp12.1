@@ -20,5 +20,9 @@ class Customer(models.Model):
                                       default=None,
                                       related_name='customer_of')
 
+    @property
+    def new_customer(self):
+        return self.contract_of.exclude(date_signed=None).count() == 0
+
     def __str__(self):
         return f"Customer [ {self.pk} - {self.name} ]"

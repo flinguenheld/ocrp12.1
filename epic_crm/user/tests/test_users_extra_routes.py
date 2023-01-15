@@ -22,7 +22,7 @@ class TestUsersExtraRoutes:
         Customer.objects.create(name='customer 1', assigned_user=camille)
 
         # --
-        response = client_user_sophie.get('/users/list_salespeople/')
+        response = client_user_sophie.get('/users/salespeople/')
         data = response.json()
 
         assert response.status_code == 200
@@ -47,7 +47,7 @@ class TestUsersExtraRoutes:
         Event.objects.create(name='name event 1', date='2020-10-20', contract=contract_1, assigned_user=marcel)
 
         # --
-        response = client_user_sophie.get('/users/list_technicians/')
+        response = client_user_sophie.get('/users/technicians/')
         data = response.json()
 
         assert response.status_code == 200

@@ -8,7 +8,7 @@ class CustomerSerializerList(ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ['pk', 'name', 'email']
+        fields = ['pk', 'name', 'email', 'new_customer']
 
 
 class CustomerSerializerDetails(ModelSerializer):
@@ -17,7 +17,8 @@ class CustomerSerializerDetails(ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile', 'date_created', 'assigned_user']
+        fields = ['pk', 'name', 'address', 'email', 'phone', 'mobile',
+                  'date_created', 'assigned_user', 'new_customer']
 
 
 class CustomerSerializerCreateByStaff(ModelSerializer):

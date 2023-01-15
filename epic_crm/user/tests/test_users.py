@@ -1,8 +1,6 @@
 import pytest
 from django.contrib.auth.models import User
 
-from epic_crm.user.groups import init_groups
-
 
 @pytest.mark.django_db
 class TestUsers:

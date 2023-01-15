@@ -8,11 +8,11 @@ from .groups import init_groups
 # Groups auto-added after the first migration
 init_groups()
 
-# --
 # Adminsite adapted to superuser and staff
 admin.site.unregister(User)
 
 
+# --
 class AssignmentListFilter(admin.SimpleListFilter):
     title = 'Assignment'
     parameter_name = 'assigned'

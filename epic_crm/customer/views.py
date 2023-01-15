@@ -5,7 +5,7 @@ import django_filters
 from .models import Customer
 from . import serializers
 
-from rest_framework.permissions import DjangoModelPermissions, IsAdminUser, IsAuthenticated
+from rest_framework.permissions import IsAdminUser, IsAuthenticated
 from .permissions import IsAssignedOrStaff, CanAddCustomerOrStaff
 
 

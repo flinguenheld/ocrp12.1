@@ -38,9 +38,9 @@ class UserViewSet(mixins.ListModelMixin,
     def get_permissions(self):
 
         if (self.action == 'list' or
-            self.action == 'retrieve' or
-            self.action == 'list_technicians' or
-            self.action == 'list_salespeople'):
+                self.action == 'retrieve' or
+                self.action == 'technicians' or
+                self.action == 'salespeople'):
 
             self.permission_classes = [IsAuthenticated]
         else:
@@ -65,11 +65,11 @@ class UserViewSet(mixins.ListModelMixin,
 
     # List assigned users --
     @action(methods=['get'], detail=False)
-    def list_technicians(self, request):
+    def technicians(self, request):
         return Response(data=serializers.UserSerializerList(User.objects.exclude(event_of=None), many=True).data)
 
     @action(methods=['get'], detail=False)
-    def list_salespeople(self, request):
+    def salespeople(self, request):
         return Response(data=serializers.UserSerializerList(User.objects.exclude(customer_of=None), many=True).data)
 
     # Set groups --
