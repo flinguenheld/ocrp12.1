@@ -7829,3 +7829,654 @@ NameError: name 'contract_of__date_signed' is not defined
 2023-01-15 00:36:35,266 - WARNING - Forbidden: /users/101/set_sales/
 2023-01-15 00:36:35,268 - WARNING - Forbidden: /users/101/set_manager/
 2023-01-15 00:36:35,823 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-15 11:05:42,789 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-15 11:05:43,074 - WARNING - Unauthorized: /contracts/
+2023-01-15 11:05:43,684 - WARNING - Forbidden: /contracts/
+2023-01-15 11:05:44,381 - WARNING - Forbidden: /contracts/6/
+2023-01-15 11:05:44,990 - WARNING - Forbidden: /contracts/9/
+2023-01-15 11:05:45,176 - WARNING - Forbidden: /contracts/10/
+2023-01-15 11:05:46,223 - WARNING - Unauthorized: /customers/
+2023-01-15 11:05:46,740 - WARNING - Forbidden: /customers/
+2023-01-15 11:05:47,349 - WARNING - Forbidden: /customers/32/
+2023-01-15 11:05:47,967 - WARNING - Forbidden: /customers/35/
+2023-01-15 11:05:48,148 - WARNING - Forbidden: /customers/36/
+2023-01-15 11:05:49,888 - WARNING - Forbidden: /events/14/
+2023-01-15 11:05:50,254 - WARNING - Bad Request: /events/
+2023-01-15 11:05:50,447 - WARNING - Forbidden: /events/16/
+2023-01-15 11:05:50,629 - WARNING - Forbidden: /events/17/
+2023-01-15 11:05:51,320 - WARNING - Unauthorized: /events/
+2023-01-15 11:05:51,839 - WARNING - Forbidden: /events/
+2023-01-15 11:05:52,013 - WARNING - Forbidden: /events/24/
+2023-01-15 11:05:52,185 - WARNING - Forbidden: /events/25/
+2023-01-15 11:05:52,271 - WARNING - Unauthorized: /login/
+2023-01-15 11:05:54,151 - WARNING - Unauthorized: /users/
+2023-01-15 11:05:54,918 - WARNING - Forbidden: /users/
+2023-01-15 11:05:55,437 - WARNING - Forbidden: /users/83/
+2023-01-15 11:05:55,950 - WARNING - Forbidden: /users/87/
+2023-01-15 11:05:57,491 - WARNING - Forbidden: /users/101/set_sales/
+2023-01-15 11:05:57,492 - WARNING - Forbidden: /users/101/set_manager/
+2023-01-15 11:05:58,054 - INFO - ========================= PYTEST SESSION  END  =========================
+2023-01-16 07:42:48,116 - INFO - Watching for file changes with StatReloader
+2023-01-16 10:29:18,655 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 10:29:18,681 - INFO - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2023-01-16 10:29:18,684 - INFO - "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+2023-01-16 10:29:18,684 - INFO - "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+2023-01-16 10:29:18,684 - INFO - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+2023-01-16 10:29:18,684 - INFO - "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+2023-01-16 10:29:18,685 - INFO - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+2023-01-16 10:29:18,725 - INFO - "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2023-01-16 10:29:18,728 - INFO - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2023-01-16 10:29:18,728 - INFO - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2023-01-16 10:29:18,734 - INFO - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+2023-01-16 10:29:18,735 - INFO - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+2023-01-16 10:29:18,736 - INFO - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+2023-01-16 10:29:18,783 - WARNING - Not Found: /favicon.ico
+2023-01-16 10:29:20,549 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 10:29:23,303 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 10:29:24,462 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 10:29:24,469 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 10:29:24,527 - INFO - "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2023-01-16 10:29:45,830 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 10:29:45,841 - INFO - "GET /admin/ HTTP/1.1" 200 8062
+2023-01-16 10:29:45,898 - INFO - "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2023-01-16 10:30:04,358 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11748
+2023-01-16 10:30:04,378 - INFO - "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2023-01-16 10:30:04,378 - INFO - "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2023-01-16 10:30:04,379 - INFO - "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2023-01-16 10:30:04,379 - INFO - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2023-01-16 10:30:04,380 - INFO - "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+2023-01-16 10:30:04,380 - INFO - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,380 - INFO - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2023-01-16 10:30:04,380 - INFO - "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,380 - INFO - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,383 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 10:30:04,384 - INFO - "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,419 - INFO - "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,420 - INFO - "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,421 - INFO - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2023-01-16 10:30:04,472 - INFO - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2023-01-16 10:30:04,472 - INFO - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2023-01-16 10:30:08,055 - INFO - "GET /admin/auth/group/ HTTP/1.1" 200 8129
+2023-01-16 10:30:08,075 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 10:30:09,466 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11748
+2023-01-16 10:30:09,486 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 10:30:10,612 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 10:30:12,089 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 10:30:12,092 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 10:30:15,381 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 10:30:15,393 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 12:26:28,974 - INFO - "POST /login/ HTTP/1.1" 200 486
+2023-01-16 12:28:47,835 - INFO - "GET /users/ HTTP/1.1" 200 122
+2023-01-16 12:28:57,837 - INFO - "GET /customers/ HTTP/1.1" 200 316
+2023-01-16 12:29:38,372 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 12:29:48,301 - INFO - "GET /customers/22/ HTTP/1.1" 200 207
+2023-01-16 12:30:28,750 - WARNING - Forbidden: /customers/
+2023-01-16 12:30:28,750 - WARNING - "POST /customers/ HTTP/1.1" 403 54
+2023-01-16 12:30:35,294 - WARNING - Forbidden: /customers/22/
+2023-01-16 12:30:35,294 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 12:30:39,951 - WARNING - Forbidden: /customers/22/
+2023-01-16 12:30:39,951 - WARNING - "DELETE /customers/22/ HTTP/1.1" 403 63
+2023-01-16 12:30:48,324 - INFO - "GET /contracts/ HTTP/1.1" 200 204
+2023-01-16 12:30:54,113 - WARNING - Not Found: /contracts//
+2023-01-16 12:30:54,113 - WARNING - "GET /contracts// HTTP/1.1" 404 5471
+2023-01-16 12:31:02,685 - WARNING - Not Found: /contracts//
+2023-01-16 12:31:02,685 - WARNING - "GET /contracts// HTTP/1.1" 404 5471
+2023-01-16 12:31:13,356 - INFO - "GET /contracts/ HTTP/1.1" 200 204
+2023-01-16 12:31:29,199 - INFO - "GET /contracts/12/ HTTP/1.1" 200 271
+2023-01-16 12:31:49,901 - WARNING - Forbidden: /contracts/
+2023-01-16 12:31:49,901 - WARNING - "POST /contracts/ HTTP/1.1" 403 60
+2023-01-16 12:31:53,339 - WARNING - Forbidden: /contracts/12/
+2023-01-16 12:31:53,339 - WARNING - "PUT /contracts/12/ HTTP/1.1" 403 60
+2023-01-16 12:31:55,896 - WARNING - Forbidden: /contracts/12/
+2023-01-16 12:31:55,896 - WARNING - "DELETE /contracts/12/ HTTP/1.1" 403 63
+2023-01-16 12:32:00,242 - INFO - "GET /events/ HTTP/1.1" 200 267
+2023-01-16 12:32:18,012 - INFO - "GET /events/7/ HTTP/1.1" 200 297
+2023-01-16 12:32:48,544 - INFO - "PUT /events/7/ HTTP/1.1" 200 112
+2023-01-16 12:32:57,335 - WARNING - Forbidden: /events/
+2023-01-16 12:32:57,336 - WARNING - "POST /events/ HTTP/1.1" 403 69
+2023-01-16 12:33:03,931 - WARNING - Forbidden: /events/7/
+2023-01-16 12:33:03,932 - WARNING - "DELETE /events/7/ HTTP/1.1" 403 63
+2023-01-16 13:05:37,093 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 13:05:44,432 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 13:05:46,648 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 13:05:48,242 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 13:05:48,247 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 13:05:53,256 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 13:05:53,267 - INFO - "GET /admin/ HTTP/1.1" 200 8062
+2023-01-16 13:06:04,135 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11748
+2023-01-16 13:06:04,160 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:06:10,734 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 13:06:10,751 - INFO - "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2023-01-16 13:06:10,753 - INFO - "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2023-01-16 13:06:10,753 - INFO - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2023-01-16 13:06:10,755 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:06:10,755 - INFO - "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+2023-01-16 13:06:37,362 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 13:06:37,388 - INFO - "GET /admin/auth/user/90/change/ HTTP/1.1" 200 18637
+2023-01-16 13:06:37,460 - INFO - "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2023-01-16 13:06:37,460 - INFO - "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2023-01-16 13:06:37,460 - INFO - "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+2023-01-16 13:06:37,460 - INFO - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+2023-01-16 13:06:37,462 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:06:37,518 - INFO - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2023-01-16 13:06:37,519 - INFO - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2023-01-16 13:06:37,519 - INFO - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2023-01-16 13:06:37,520 - INFO - "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2023-01-16 13:06:37,520 - INFO - "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2023-01-16 13:07:30,273 - INFO - "POST /admin/auth/user/90/change/ HTTP/1.1" 302 0
+2023-01-16 13:07:30,286 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12327
+2023-01-16 13:07:30,348 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:40,385 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 11123
+2023-01-16 13:07:40,406 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:42,073 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 11137
+2023-01-16 13:07:42,093 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:43,039 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 11123
+2023-01-16 13:07:43,059 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:43,991 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12133
+2023-01-16 13:07:44,010 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:48,458 - INFO - "GET /admin/auth/user/90/change/ HTTP/1.1" 200 18433
+2023-01-16 13:07:48,479 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:07:50,759 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 13:07:51,953 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 13:07:51,959 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 13:08:04,538 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 13:08:04,549 - INFO - "GET /admin/ HTTP/1.1" 200 5151
+2023-01-16 13:08:19,753 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11468
+2023-01-16 13:08:19,772 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:08:28,583 - INFO - "GET /admin/auth/user/90/change/ HTTP/1.1" 200 17994
+2023-01-16 13:08:28,601 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:08:35,717 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11468
+2023-01-16 13:08:35,735 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:08:41,777 - INFO - "GET /admin/contract/contract/ HTTP/1.1" 200 11331
+2023-01-16 13:08:41,795 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:08:42,977 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 11828
+2023-01-16 13:08:42,994 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:08:44,088 - INFO - "GET /admin/event/event/ HTTP/1.1" 200 10569
+2023-01-16 13:08:44,108 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:09:54,755 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11468
+2023-01-16 13:09:54,775 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:04,369 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 10891
+2023-01-16 13:10:04,388 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:05,722 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 10921
+2023-01-16 13:10:05,740 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:06,812 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 10891
+2023-01-16 13:10:06,832 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:07,400 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 11468
+2023-01-16 13:10:07,421 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:11,634 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:11,655 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:13,746 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:13,764 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:15,621 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:15,641 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:16,012 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:16,032 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:16,559 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:16,577 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:16,993 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:17,011 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:17,428 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:17,447 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:19,277 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:19,299 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:20,897 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:20,914 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:21,263 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:21,281 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:22,029 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:22,047 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:22,509 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:22,528 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:23,504 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 10841
+2023-01-16 13:10:23,522 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:24,825 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:24,843 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:37,751 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:37,766 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:39,060 - INFO - "GET /admin/auth/user/?assigned=Sales&groups__isnull=True HTTP/1.1" 200 11296
+2023-01-16 13:10:39,077 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:40,405 - INFO - "GET /admin/auth/user/?assigned=Sales&groups__id__exact=1 HTTP/1.1" 200 11296
+2023-01-16 13:10:40,424 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:40,795 - INFO - "GET /admin/auth/user/?assigned=Sales&groups__id__exact=2 HTTP/1.1" 200 11296
+2023-01-16 13:10:40,812 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:41,524 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:41,543 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:43,856 - INFO - "GET /admin/auth/user/?assigned=Sales&is_staff__exact=1 HTTP/1.1" 200 11284
+2023-01-16 13:10:43,876 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:44,538 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 10855
+2023-01-16 13:10:44,555 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:45,305 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 11468
+2023-01-16 13:10:45,324 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:10:50,909 - INFO - "GET /admin/contract/contract/ HTTP/1.1" 200 11331
+2023-01-16 13:10:50,926 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:12:43,844 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11468
+2023-01-16 13:12:43,864 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:13,906 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 11828
+2023-01-16 13:18:13,932 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:16,699 - INFO - "GET /admin/customer/customer/add/ HTTP/1.1" 200 10602
+2023-01-16 13:18:16,722 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:16,722 - INFO - "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2023-01-16 13:18:28,561 - INFO - "POST /admin/customer/customer/add/ HTTP/1.1" 302 0
+2023-01-16 13:18:28,582 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 12473
+2023-01-16 13:18:28,645 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:30,310 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 12250
+2023-01-16 13:18:30,328 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:32,469 - INFO - "GET /admin/customer/customer/25/change/ HTTP/1.1" 200 10912
+2023-01-16 13:18:32,489 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:33,825 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 12250
+2023-01-16 13:18:33,846 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:35,858 - INFO - "GET /admin/customer/customer/25/change/ HTTP/1.1" 200 10912
+2023-01-16 13:18:35,878 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:45,811 - INFO - "POST /admin/customer/customer/25/change/ HTTP/1.1" 302 0
+2023-01-16 13:18:45,830 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 12482
+2023-01-16 13:18:45,892 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:50,555 - INFO - "GET /admin/customer/customer/25/change/ HTTP/1.1" 200 10912
+2023-01-16 13:18:50,575 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:18:53,633 - INFO - "POST /admin/customer/customer/25/change/ HTTP/1.1" 302 0
+2023-01-16 13:18:53,652 - INFO - "GET /admin/customer/customer/ HTTP/1.1" 200 12479
+2023-01-16 13:18:53,712 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:19:08,384 - INFO - "GET /admin/contract/contract/ HTTP/1.1" 200 11415
+2023-01-16 13:19:08,410 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:19:10,054 - INFO - "GET /admin/contract/contract/12/change/ HTTP/1.1" 200 10076
+2023-01-16 13:19:10,078 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:19:12,311 - INFO - "GET /admin/contract/contract/ HTTP/1.1" 200 11415
+2023-01-16 13:19:12,330 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:19:33,302 - INFO - "GET /admin/ HTTP/1.1" 200 6117
+2023-01-16 13:20:43,280 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11468
+2023-01-16 13:20:43,304 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:20:47,435 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8802
+2023-01-16 13:20:47,455 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:02,251 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 13:21:02,274 - INFO - "GET /admin/auth/user/91/change/ HTTP/1.1" 200 18167
+2023-01-16 13:21:02,351 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:11,901 - INFO - "POST /admin/auth/user/91/change/ HTTP/1.1" 302 0
+2023-01-16 13:21:11,918 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12049
+2023-01-16 13:21:11,979 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:16,392 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 11349
+2023-01-16 13:21:16,416 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:20,274 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8802
+2023-01-16 13:21:20,300 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:31,531 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 13:21:31,555 - INFO - "GET /admin/auth/user/92/change/ HTTP/1.1" 200 18167
+2023-01-16 13:21:31,631 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:37,858 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12240
+2023-01-16 13:21:37,882 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:41,459 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 10891
+2023-01-16 13:21:41,481 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:43,454 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 11349
+2023-01-16 13:21:43,475 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:21:46,077 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12240
+2023-01-16 13:21:46,094 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 13:24:29,815 - INFO - "GET /admin/auth/user/ HTTP/1.1" 302 0
+2023-01-16 16:01:55,582 - INFO - Watching for file changes with StatReloader
+2023-01-16 16:02:05,020 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 16:02:06,074 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 16:02:06,086 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 16:02:11,987 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 16:02:12,000 - INFO - "GET /admin/ HTTP/1.1" 200 8117
+2023-01-16 16:02:27,967 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12905
+2023-01-16 16:02:27,987 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:02:40,688 - INFO - "POST /admin/auth/user/ HTTP/1.1" 200 7181
+2023-01-16 16:02:40,703 - INFO - "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2023-01-16 16:02:41,805 - INFO - "POST /admin/auth/user/ HTTP/1.1" 302 0
+2023-01-16 16:02:41,819 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12269
+2023-01-16 16:02:41,876 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:03:34,138 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12134
+2023-01-16 16:03:34,153 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:02,437 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12134
+2023-01-16 16:04:02,452 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:50,816 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 10744
+2023-01-16 16:04:50,836 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:53,403 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 11631
+2023-01-16 16:04:53,423 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:55,281 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12134
+2023-01-16 16:04:55,302 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:57,891 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 11123
+2023-01-16 16:04:57,911 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:04:59,656 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 11137
+2023-01-16 16:04:59,675 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:01,516 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12134
+2023-01-16 16:05:01,532 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:04,108 - INFO - "GET /admin/auth/user/?is_staff__exact=1 HTTP/1.1" 200 11159
+2023-01-16 16:05:04,128 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:06,006 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12134
+2023-01-16 16:05:06,023 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:07,901 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 16:05:07,920 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:13,542 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12134
+2023-01-16 16:05:13,560 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:15,458 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12134
+2023-01-16 16:05:15,474 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:23,570 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 16:05:23,586 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:05:36,371 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 16:05:36,396 - INFO - "GET /admin/auth/user/93/change/ HTTP/1.1" 200 18647
+2023-01-16 16:05:36,470 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:07:47,560 - INFO - "POST /admin/auth/user/93/change/ HTTP/1.1" 302 0
+2023-01-16 16:07:47,576 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12717
+2023-01-16 16:07:47,636 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:19,466 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12521
+2023-01-16 16:17:19,481 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:54,170 - INFO - "GET /admin/auth/user/?assigned=Tech HTTP/1.1" 200 11123
+2023-01-16 16:17:54,190 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:54,957 - INFO - "GET /admin/auth/user/?assigned=Sales HTTP/1.1" 200 11137
+2023-01-16 16:17:54,975 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:55,485 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12521
+2023-01-16 16:17:55,504 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:56,183 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11175
+2023-01-16 16:17:56,202 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:17:58,149 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12521
+2023-01-16 16:17:58,169 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:18:02,001 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 16:18:03,073 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 16:18:03,077 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 16:18:09,484 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 16:18:09,496 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 16:19:29,831 - WARNING - Not Found: /manager/
+2023-01-16 16:19:29,832 - WARNING - "GET /manager/ HTTP/1.1" 404 5462
+2023-01-16 16:19:55,253 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11858
+2023-01-16 16:19:55,278 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:24:06,505 - WARNING - Unauthorized: /login/
+2023-01-16 16:24:06,505 - WARNING - "POST /login/ HTTP/1.1" 401 63
+2023-01-16 16:25:52,624 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 11858
+2023-01-16 16:25:52,642 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:25:53,283 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8804
+2023-01-16 16:25:53,302 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:04,887 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 16:26:04,912 - INFO - "GET /admin/auth/user/94/change/ HTTP/1.1" 200 18169
+2023-01-16 16:26:04,988 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:10,137 - INFO - "POST /admin/auth/user/94/change/ HTTP/1.1" 302 0
+2023-01-16 16:26:10,152 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12439
+2023-01-16 16:26:10,213 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:11,970 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8804
+2023-01-16 16:26:11,991 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:23,128 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 16:26:23,150 - INFO - "GET /admin/auth/user/95/change/ HTTP/1.1" 200 18164
+2023-01-16 16:26:23,224 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:24,669 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12629
+2023-01-16 16:26:24,689 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:32,545 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 10895
+2023-01-16 16:26:32,563 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:34,313 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 11779
+2023-01-16 16:26:34,332 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:41,660 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12629
+2023-01-16 16:26:41,679 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:45,542 - INFO - "GET /admin/contract/contract/ HTTP/1.1" 200 11417
+2023-01-16 16:26:45,562 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:50,342 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12629
+2023-01-16 16:26:50,360 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 16:26:57,584 - INFO - "POST /login/ HTTP/1.1" 200 486
+2023-01-16 16:29:23,814 - WARNING - Unauthorized: /users/
+2023-01-16 16:29:23,814 - WARNING - "GET /users/ HTTP/1.1" 401 183
+2023-01-16 16:29:45,191 - INFO - "GET /users/ HTTP/1.1" 200 242
+2023-01-16 16:30:35,491 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:31:51,465 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:31:59,612 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:32:18,015 - INFO - "GET /customers/22/ HTTP/1.1" 200 207
+2023-01-16 16:33:10,015 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:33:10,015 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 16:33:28,345 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:33:37,860 - INFO - "GET /customers/?name__contains=CO HTTP/1.1" 200 73
+2023-01-16 16:33:42,937 - INFO - "GET /customers/?email__contains=hello@ HTTP/1.1" 200 231
+2023-01-16 16:33:47,936 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 16:34:13,177 - INFO - "GET /customers/22/ HTTP/1.1" 200 207
+2023-01-16 16:36:21,922 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:36:32,510 - INFO - "GET /customers/?email__contains=hello@ HTTP/1.1" 200 231
+2023-01-16 16:36:38,652 - INFO - "GET /customers/?name__contains=CO HTTP/1.1" 200 73
+2023-01-16 16:36:41,803 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 16:36:44,325 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 16:38:21,937 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:38:21,937 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 16:38:25,976 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:38:25,976 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 16:38:26,350 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:38:26,350 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 16:38:44,147 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:38:44,147 - WARNING - "DELETE /customers/22/ HTTP/1.1" 403 63
+2023-01-16 16:46:02,415 - INFO - "GET /customers/ HTTP/1.1" 200 373
+2023-01-16 16:47:15,653 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:47:15,654 - WARNING - "PUT /customers/22/ HTTP/1.1" 403 60
+2023-01-16 16:47:19,660 - WARNING - Forbidden: /customers/22/
+2023-01-16 16:47:19,660 - WARNING - "DELETE /customers/22/ HTTP/1.1" 403 63
+2023-01-16 16:47:48,348 - WARNING - Bad Request: /customers/
+2023-01-16 16:47:48,348 - WARNING - "POST /customers/ HTTP/1.1" 400 52
+2023-01-16 16:47:53,132 - INFO - "POST /customers/ HTTP/1.1" 201 164
+2023-01-16 16:49:51,904 - INFO - "GET /customers/26/ HTTP/1.1" 200 256
+2023-01-16 16:50:06,843 - INFO - "PUT /customers/26/ HTTP/1.1" 200 157
+2023-01-16 16:51:09,571 - WARNING - Forbidden: /customers/26/
+2023-01-16 16:51:09,571 - WARNING - "DELETE /customers/26/ HTTP/1.1" 403 63
+2023-01-16 16:51:18,167 - INFO - "GET /customers/ HTTP/1.1" 200 450
+2023-01-16 16:52:22,029 - INFO - "GET /contracts/ HTTP/1.1" 200 204
+2023-01-16 16:52:59,531 - INFO - "GET /contracts/ HTTP/1.1" 200 204
+2023-01-16 16:53:02,310 - INFO - "GET /contracts/?customer__name__contains=CO&customer__email__contains=hello@&amount__exact=1000&date_signed__gt=2020-02-10 HTTP/1.1" 200 141
+2023-01-16 16:53:29,219 - WARNING - Forbidden: /contracts/
+2023-01-16 16:53:29,219 - WARNING - "POST /contracts/ HTTP/1.1" 403 60
+2023-01-16 16:54:25,047 - WARNING - Forbidden: /contracts/
+2023-01-16 16:54:25,047 - WARNING - "POST /contracts/ HTTP/1.1" 403 60
+2023-01-16 16:54:38,646 - WARNING - Forbidden: /contracts/12/
+2023-01-16 16:54:38,646 - WARNING - "PUT /contracts/12/ HTTP/1.1" 403 60
+2023-01-16 16:54:41,990 - WARNING - Forbidden: /contracts/12/
+2023-01-16 16:54:41,990 - WARNING - "DELETE /contracts/12/ HTTP/1.1" 403 63
+2023-01-16 16:54:44,194 - INFO - "GET /contracts/ HTTP/1.1" 200 204
+2023-01-16 16:54:51,666 - INFO - "GET /customers/ HTTP/1.1" 200 450
+2023-01-16 16:55:26,243 - INFO - "POST /contracts/ HTTP/1.1" 201 87
+2023-01-16 16:55:40,209 - INFO - "GET /contracts/14/ HTTP/1.1" 200 269
+2023-01-16 16:56:28,617 - INFO - "PUT /contracts/14/ HTTP/1.1" 200 103
+2023-01-16 16:56:30,892 - INFO - "GET /contracts/14/ HTTP/1.1" 200 285
+2023-01-16 16:57:07,957 - WARNING - Forbidden: /contracts/14/
+2023-01-16 16:57:07,957 - WARNING - "DELETE /contracts/14/ HTTP/1.1" 403 63
+2023-01-16 16:57:17,574 - INFO - "GET /contracts/14/ HTTP/1.1" 200 285
+2023-01-16 16:57:46,682 - INFO - "GET /events/ HTTP/1.1" 200 262
+2023-01-16 16:57:58,191 - WARNING - Forbidden: /events/7/
+2023-01-16 16:57:58,191 - WARNING - "PUT /events/7/ HTTP/1.1" 403 60
+2023-01-16 16:58:02,102 - WARNING - Forbidden: /events/7/
+2023-01-16 16:58:02,103 - WARNING - "DELETE /events/7/ HTTP/1.1" 403 63
+2023-01-16 16:58:10,022 - INFO - "GET /events/7/ HTTP/1.1" 200 298
+2023-01-16 16:58:14,727 - INFO - "GET /events/ HTTP/1.1" 200 262
+2023-01-16 16:58:17,209 - INFO - "GET /events/?contract__customer__name__contains=CO&contract__customer__email__contains=hello@&date__exact=2023-05-24 HTTP/1.1" 200 262
+2023-01-16 16:59:13,770 - INFO - "PUT /contracts/14/ HTTP/1.1" 200 95
+2023-01-16 16:59:18,398 - WARNING - Bad Request: /events/
+2023-01-16 16:59:18,398 - WARNING - "POST /events/ HTTP/1.1" 400 79
+2023-01-16 16:59:28,887 - INFO - "PUT /contracts/14/ HTTP/1.1" 200 103
+2023-01-16 16:59:32,250 - INFO - "POST /events/ HTTP/1.1" 201 101
+2023-01-16 17:00:48,503 - WARNING - Forbidden: /events/10/
+2023-01-16 17:00:48,504 - WARNING - "PUT /events/10/ HTTP/1.1" 403 60
+2023-01-16 17:00:52,845 - WARNING - Forbidden: /events/10/
+2023-01-16 17:00:52,845 - WARNING - "DELETE /events/10/ HTTP/1.1" 403 63
+2023-01-16 17:01:44,390 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12629
+2023-01-16 17:01:44,411 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:01:47,547 - INFO - "GET /admin/event/event/ HTTP/1.1" 200 11231
+2023-01-16 17:01:47,569 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:01:56,530 - INFO - "GET /admin/event/event/10/change/ HTTP/1.1" 200 12224
+2023-01-16 17:01:56,549 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:02:04,676 - INFO - "POST /admin/event/event/10/change/ HTTP/1.1" 302 0
+2023-01-16 17:02:04,694 - INFO - "GET /admin/event/event/ HTTP/1.1" 200 11519
+2023-01-16 17:02:04,754 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:03:27,962 - INFO - "POST /login/ HTTP/1.1" 200 486
+2023-01-16 17:04:19,092 - INFO - "GET /events/ HTTP/1.1" 200 336
+2023-01-16 17:04:23,522 - WARNING - Forbidden: /events/
+2023-01-16 17:04:23,523 - WARNING - "POST /events/ HTTP/1.1" 403 69
+2023-01-16 17:04:31,978 - WARNING - Bad Request: /events/10/
+2023-01-16 17:04:31,978 - WARNING - "PUT /events/10/ HTTP/1.1" 400 49
+2023-01-16 17:04:34,905 - WARNING - Bad Request: /events/10/
+2023-01-16 17:04:34,905 - WARNING - "PUT /events/10/ HTTP/1.1" 400 49
+2023-01-16 17:04:35,824 - WARNING - Bad Request: /events/10/
+2023-01-16 17:04:35,825 - WARNING - "PUT /events/10/ HTTP/1.1" 400 49
+2023-01-16 17:04:40,106 - INFO - "GET /events/ HTTP/1.1" 200 336
+2023-01-16 17:04:53,653 - INFO - "PUT /events/10/ HTTP/1.1" 200 124
+2023-01-16 17:05:03,978 - INFO - "GET /users/ HTTP/1.1" 200 242
+2023-01-16 17:05:06,592 - INFO - "GET /users/?username__contains=Re&email__contains=@postman&groups__name=sales HTTP/1.1" 200 30
+2023-01-16 17:05:17,410 - INFO - "GET /users/?username__contains=Jo HTTP/1.1" 200 30
+2023-01-16 17:05:24,557 - INFO - "GET /events/10/ HTTP/1.1" 200 307
+2023-01-16 17:05:34,017 - WARNING - Forbidden: /events/10/
+2023-01-16 17:05:34,018 - WARNING - "DELETE /events/10/ HTTP/1.1" 403 63
+2023-01-16 17:05:37,341 - WARNING - Forbidden: /events/
+2023-01-16 17:05:37,341 - WARNING - "POST /events/ HTTP/1.1" 403 69
+2023-01-16 17:05:39,629 - WARNING - Forbidden: /contracts/
+2023-01-16 17:05:39,629 - WARNING - "POST /contracts/ HTTP/1.1" 403 60
+2023-01-16 17:41:46,374 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12629
+2023-01-16 17:41:46,395 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:41:47,725 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 17:49:23,595 - INFO - Watching for file changes with StatReloader
+2023-01-16 17:49:40,427 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 17:49:40,441 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 17:49:50,610 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 17:49:50,624 - INFO - "GET /admin/ HTTP/1.1" 200 8198
+2023-01-16 17:50:01,736 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13292
+2023-01-16 17:50:01,757 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:50:16,669 - INFO - "POST /admin/auth/user/ HTTP/1.1" 200 6765
+2023-01-16 17:50:17,962 - INFO - "POST /admin/auth/user/ HTTP/1.1" 302 0
+2023-01-16 17:50:17,976 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12656
+2023-01-16 17:50:18,036 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:50:33,729 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 17:50:33,749 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:50:47,582 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 17:50:47,607 - INFO - "GET /admin/auth/user/96/change/ HTTP/1.1" 200 18642
+2023-01-16 17:50:47,681 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:01,626 - INFO - "POST /admin/auth/user/96/change/ HTTP/1.1" 302 0
+2023-01-16 17:51:01,640 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13102
+2023-01-16 17:51:01,700 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:06,862 - INFO - "GET /admin/auth/user/96/change/ HTTP/1.1" 200 18437
+2023-01-16 17:51:06,880 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:15,744 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12907
+2023-01-16 17:51:15,764 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:17,573 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 17:51:17,593 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:32,696 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 17:51:32,718 - INFO - "GET /admin/auth/user/97/change/ HTTP/1.1" 200 18637
+2023-01-16 17:51:32,794 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:41,356 - INFO - "POST /admin/auth/user/97/change/ HTTP/1.1" 302 0
+2023-01-16 17:51:41,370 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13486
+2023-01-16 17:51:41,432 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:47,646 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11603
+2023-01-16 17:51:47,666 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:49,604 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 12058
+2023-01-16 17:51:49,623 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:53,074 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11603
+2023-01-16 17:51:53,092 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:56,805 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11603
+2023-01-16 17:51:56,822 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:57,353 - INFO - "GET /admin/auth/user/?assigned=Tech&groups__id__exact=2 HTTP/1.1" 200 11564
+2023-01-16 17:51:57,373 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:57,810 - INFO - "GET /admin/auth/user/?assigned=Sales&groups__id__exact=2 HTTP/1.1" 200 11578
+2023-01-16 17:51:57,828 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:58,164 - INFO - "GET /admin/auth/user/?assigned=Tech&groups__id__exact=2 HTTP/1.1" 200 11564
+2023-01-16 17:51:58,184 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:58,948 - INFO - "GET /admin/auth/user/?assigned=Sales&groups__id__exact=2 HTTP/1.1" 200 11578
+2023-01-16 17:51:58,966 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:51:59,343 - INFO - "GET /admin/auth/user/?assigned=Tech&groups__id__exact=2 HTTP/1.1" 200 11564
+2023-01-16 17:51:59,363 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:52:00,712 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 13292
+2023-01-16 17:52:00,732 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:52:07,066 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 17:52:08,334 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 17:52:08,338 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 17:52:19,222 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 17:52:19,237 - INFO - "GET /admin/ HTTP/1.1" 200 5152
+2023-01-16 17:52:29,169 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12628
+2023-01-16 17:52:29,187 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:53:36,804 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 17:53:37,976 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 17:53:37,980 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 17:53:39,677 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 17:53:39,688 - INFO - "GET /admin/ HTTP/1.1" 200 8234
+2023-01-16 17:53:41,071 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13292
+2023-01-16 17:53:41,089 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:53:47,464 - INFO - "POST /admin/auth/user/ HTTP/1.1" 200 6840
+2023-01-16 17:53:48,452 - INFO - "POST /admin/auth/user/ HTTP/1.1" 302 0
+2023-01-16 17:53:48,465 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12656
+2023-01-16 17:53:48,522 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:53:50,666 - INFO - "GET /admin/ HTTP/1.1" 200 8234
+2023-01-16 17:53:58,278 - INFO - "GET /admin/ HTTP/1.1" 200 8234
+2023-01-16 17:53:59,348 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 17:54:00,444 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 17:54:00,447 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 17:54:03,381 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 17:54:03,392 - INFO - "GET /admin/ HTTP/1.1" 200 8234
+2023-01-16 17:54:11,665 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12521
+2023-01-16 17:54:11,683 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:54:24,213 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 17:54:24,232 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:54:31,803 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 9084
+2023-01-16 17:54:31,818 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:54:48,941 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 17:54:48,963 - INFO - "GET /admin/auth/user/98/change/ HTTP/1.1" 200 18647
+2023-01-16 17:54:49,038 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:55:01,538 - INFO - "POST /admin/auth/user/98/change/ HTTP/1.1" 302 0
+2023-01-16 17:55:01,552 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13104
+2023-01-16 17:55:01,612 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:55:09,328 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11604
+2023-01-16 17:55:09,346 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:55:15,461 - INFO - "GET /admin/auth/user/?groups__id__exact=2&is_staff__exact=1 HTTP/1.1" 200 12055
+2023-01-16 17:55:15,478 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:55:16,665 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 12908
+2023-01-16 17:55:16,682 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:55:18,812 - INFO - "POST /admin/logout/ HTTP/1.1" 200 1549
+2023-01-16 17:55:19,753 - INFO - "GET /admin/ HTTP/1.1" 302 0
+2023-01-16 17:55:19,757 - INFO - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+2023-01-16 17:55:27,507 - INFO - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2023-01-16 17:55:27,519 - INFO - "GET /admin/ HTTP/1.1" 200 5153
+2023-01-16 17:55:36,332 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12245
+2023-01-16 17:55:36,349 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:10,238 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12245
+2023-01-16 17:56:10,253 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:12,587 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8804
+2023-01-16 17:56:12,605 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:25,064 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 17:56:25,087 - INFO - "GET /admin/auth/user/99/change/ HTTP/1.1" 200 18169
+2023-01-16 17:56:25,159 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:30,671 - INFO - "POST /admin/auth/user/99/change/ HTTP/1.1" 302 0
+2023-01-16 17:56:30,687 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 12826
+2023-01-16 17:56:30,747 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:33,208 - INFO - "GET /admin/auth/user/add/ HTTP/1.1" 200 8804
+2023-01-16 17:56:33,229 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:48,031 - INFO - "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+2023-01-16 17:56:48,055 - INFO - "GET /admin/auth/user/100/change/ HTTP/1.1" 200 18167
+2023-01-16 17:56:48,126 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:56:51,820 - INFO - "POST /admin/auth/user/100/change/ HTTP/1.1" 302 0
+2023-01-16 17:56:51,836 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13213
+2023-01-16 17:56:51,897 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:57:01,065 - INFO - "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11324
+2023-01-16 17:57:01,083 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:57:02,544 - INFO - "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 11779
+2023-01-16 17:57:02,560 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:57:09,064 - INFO - "GET /admin/auth/user/? HTTP/1.1" 200 13018
+2023-01-16 17:57:09,080 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:57:14,058 - INFO - "GET /admin/ HTTP/1.1" 200 6308
+2023-01-16 17:57:15,896 - INFO - "GET /admin/auth/user/ HTTP/1.1" 200 13018
+2023-01-16 17:57:15,915 - INFO - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+2023-01-16 17:58:00,451 - INFO - "POST /login/ HTTP/1.1" 200 486
+2023-01-16 17:59:29,838 - INFO - "GET /admin/auth/user/ HTTP/1.1" 302 0
+2023-01-16 18:02:17,947 - INFO - "POST /login/ HTTP/1.1" 200 486
+2023-01-16 18:03:06,594 - INFO - "GET /customers/ HTTP/1.1" 200 451
+2023-01-16 18:03:35,363 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 18:03:39,546 - INFO - "GET /customers/?email__contains=hello@ HTTP/1.1" 200 231
+2023-01-16 18:03:46,370 - INFO - "GET /customers/?name__contains=CO&email__contains=hello@ HTTP/1.1" 200 73
+2023-01-16 18:03:55,344 - INFO - "GET /customers/26/ HTTP/1.1" 200 225
+2023-01-16 18:06:27,070 - INFO - ========================= PYTEST SESSION START =========================
+2023-01-16 18:06:27,349 - WARNING - Unauthorized: /contracts/
+2023-01-16 18:06:27,959 - WARNING - Forbidden: /contracts/
+2023-01-16 18:06:28,656 - WARNING - Forbidden: /contracts/6/
+2023-01-16 18:06:29,272 - WARNING - Forbidden: /contracts/9/
+2023-01-16 18:06:29,451 - WARNING - Forbidden: /contracts/10/
+2023-01-16 18:06:30,513 - WARNING - Unauthorized: /customers/
+2023-01-16 18:06:31,032 - WARNING - Forbidden: /customers/
+2023-01-16 18:06:31,650 - WARNING - Forbidden: /customers/32/
+2023-01-16 18:06:32,259 - WARNING - Forbidden: /customers/35/
+2023-01-16 18:06:32,439 - WARNING - Forbidden: /customers/36/
+2023-01-16 18:06:34,173 - WARNING - Forbidden: /events/14/
+2023-01-16 18:06:34,535 - WARNING - Bad Request: /events/
+2023-01-16 18:06:34,718 - WARNING - Forbidden: /events/16/
+2023-01-16 18:06:34,902 - WARNING - Forbidden: /events/17/
+2023-01-16 18:06:35,604 - WARNING - Unauthorized: /events/
+2023-01-16 18:06:36,131 - WARNING - Forbidden: /events/
+2023-01-16 18:06:36,306 - WARNING - Forbidden: /events/24/
+2023-01-16 18:06:36,479 - WARNING - Forbidden: /events/25/
+2023-01-16 18:06:36,566 - WARNING - Unauthorized: /login/
+2023-01-16 18:06:38,466 - WARNING - Unauthorized: /users/
+2023-01-16 18:06:39,241 - WARNING - Forbidden: /users/
+2023-01-16 18:06:39,766 - WARNING - Forbidden: /users/83/
+2023-01-16 18:06:40,290 - WARNING - Forbidden: /users/87/
+2023-01-16 18:06:41,856 - WARNING - Forbidden: /users/101/set_sales/
+2023-01-16 18:06:41,857 - WARNING - Forbidden: /users/101/set_manager/
+2023-01-16 18:06:42,433 - INFO - ========================= PYTEST SESSION  END  =========================
